@@ -1,0 +1,404 @@
+{
+    "name": "项目文档模板集",
+    "version": "1.0.0",
+    "description": "基于实际模板文件夹结构的自动化项目管理文档生成配置",
+    "templateBasePath": "template_converted/template",
+    "requiredFields": [
+        {
+            "name": "projectName",
+            "label": "项目名称",
+            "type": "string"
+        },
+        {
+            "name": "projectCode",
+            "label": "项目编号",
+            "type": "string"
+        },
+        {
+            "name": "projectManager",
+            "label": "项目经理",
+            "type": "string"
+        },
+        {
+            "name": "companyName",
+            "label": "公司名称",
+            "type": "string"
+        },
+        {
+            "name": "startYear",
+            "label": "开始年份",
+            "type": "string"
+        },
+        {
+            "name": "startMonth",
+            "label": "开始月份",
+            "type": "string"
+        },
+        {
+            "name": "endYear",
+            "label": "结束年份",
+            "type": "string"
+        },
+        {
+            "name": "endMonth",
+            "label": "结束月份",
+            "type": "string"
+        }
+    ],
+    "optionalFields": [
+        {
+            "name": "personName",
+            "label": "人员姓名",
+            "type": "string"
+        },
+        {
+            "name": "version",
+            "label": "版本号",
+            "type": "string",
+            "default": "V1.0"
+        },
+        {
+            "name": "year",
+            "label": "年份",
+            "type": "string"
+        },
+        {
+            "name": "month",
+            "label": "月份",
+            "type": "string"
+        },
+        {
+            "name": "day",
+            "label": "日期",
+            "type": "string"
+        }
+    ],
+    "phases": [
+        {
+            "name": "立项",
+            "folder": "01立项",
+            "defaultSettings": {
+                "required": true
+            },
+            "documents": [
+                {
+                    "template": "01立项/01项目建议书/xx项目建议书.docx",
+                    "outputName": "{projectName}项目建议书.docx",
+                    "required": true,
+                    "aiFields": [
+                        {
+                            "field": "projectBackground",
+                            "prompt": "为项目 {projectName} 描述项目背景和立项依据。"
+                        },
+                        {
+                            "field": "projectObjective",
+                            "prompt": "为项目 {projectName} 描述项目目标和预期成果。"
+                        }
+                    ]
+                },
+                {
+                    "template": "01立项/02项目可行性分析报告/xxx项目可行性研究报告V0.1.docx",
+                    "outputName": "{projectName}项目可行性研究报告.docx",
+                    "required": true,
+                    "aiFields": [
+                        {
+                            "field": "feasibilityAnalysis",
+                            "prompt": "为项目 {projectName} 撰写可行性分析报告，包括技术可行性、经济可行性和运营可行性。"
+                        },
+                        {
+                            "field": "projectBackground",
+                            "prompt": "为项目 {projectName} 描述项目背景和立项依据。"
+                        },
+                        {
+                            "field": "riskAnalysis",
+                            "prompt": "为项目 {projectName} 撰写风险分析和应对措施。"
+                        },
+                        {
+                            "field": "technicalSolution",
+                            "prompt": "为项目 {projectName} 描述技术实现方案。"
+                        },
+                        {
+                            "field": "implementationPlan",
+                            "prompt": "为项目 {projectName} 制定项目实施计划。"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "项目管理",
+            "folder": "02项目管理",
+            "defaultSettings": {
+                "required": true
+            },
+            "documents": []
+        },
+        {
+            "name": "需求分析",
+            "folder": "03需求分析",
+            "defaultSettings": {
+                "required": true
+            },
+            "documents": [
+                {
+                    "template": "03需求分析/01需求规格说明书/2、XX平台需求规格说明书.docx",
+                    "outputName": "{projectName}需求规格说明书.docx",
+                    "required": true,
+                    "aiFields": [
+                        {
+                            "field": "projectBackground",
+                            "prompt": "为项目 {projectName} 描述项目背景和需求来源。"
+                        },
+                        {
+                            "field": "projectObjective",
+                            "prompt": "为项目 {projectName} 描述项目目标和预期成果。"
+                        }
+                    ]
+                },
+                {
+                    "template": "03需求分析/03需求评审意见书/2、XX项目需求评审意见.docx",
+                    "outputName": "{projectName}需求评审意见书.docx",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "name": "研发制度管理",
+            "folder": "04研发制度管理",
+            "defaultSettings": {
+                "required": false
+            },
+            "documents": [
+                {
+                    "template": "04研发制度管理/01研发制度/项目管理制度.docx",
+                    "outputName": "项目管理制度.docx",
+                    "required": false,
+                    "optionKey": "includeManagementSystem"
+                },
+                {
+                    "template": "04研发制度管理/02工作规范/前端项目开发技术规范_V1.0.docx",
+                    "outputName": "前端项目开发技术规范.docx",
+                    "required": false,
+                    "optionKey": "includeFrontendStandard"
+                },
+                {
+                    "template": "04研发制度管理/02工作规范/后台技术管理技术规范_V1.0.docx",
+                    "outputName": "后台技术管理技术规范.docx",
+                    "required": false,
+                    "optionKey": "includeBackendStandard"
+                }
+            ]
+        },
+        {
+            "name": "研发团队情况",
+            "folder": "05研发团队情况",
+            "defaultSettings": {
+                "required": false
+            },
+            "documents": [
+                {
+                    "template": "05研发团队情况/05出入研发场地实验室签到表/05出入研发场地实验室签到表.docx",
+                    "outputName": "出入研发场地实验室签到表.docx",
+                    "required": false,
+                    "optionKey": "includeSignInSheet"
+                }
+            ]
+        },
+        {
+            "name": "概要设计",
+            "folder": "06概要设计",
+            "defaultSettings": {
+                "required": true
+            },
+            "documents": [
+                {
+                    "template": "06概要设计/01系统概要设计说明书/XX建设项目概要设计说明书.docx",
+                    "outputName": "{projectName}概要设计说明书.docx",
+                    "required": true,
+                    "aiFields": [
+                        {
+                            "field": "projectBackground",
+                            "prompt": "为项目 {projectName} 描述项目背景和立项依据。"
+                        },
+                        {
+                            "field": "technicalSolution",
+                            "prompt": "为项目 {projectName} 描述系统技术架构和实现方案。"
+                        }
+                    ]
+                },
+                {
+                    "template": "06概要设计/01系统概要设计说明书/概要设计说明书模板V1.0.docx",
+                    "outputName": "{projectName}概要设计说明书模板.docx",
+                    "required": false,
+                    "optionKey": "includeDesignTemplate"
+                },
+                {
+                    "template": "06概要设计/02概要设计评审意见书/XX项目概要设计评审意见书.docx",
+                    "outputName": "{projectName}概要设计评审意见书.docx",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "name": "详细设计",
+            "folder": "07详细设计",
+            "defaultSettings": {
+                "required": true
+            },
+            "documents": [
+                {
+                    "template": "07详细设计/01系统详细设计说明书/1、xx平台详细设计说明书(平台功能分册).docx",
+                    "outputName": "{projectName}详细设计说明书.docx",
+                    "required": true,
+                    "aiFields": [
+                        {
+                            "field": "projectBackground",
+                            "prompt": "为项目 {projectName} 描述项目背景和立项依据。"
+                        }
+                    ]
+                },
+                {
+                    "template": "07详细设计/02详细设计评审意见书/XX项目详细设计评审意见书.docx",
+                    "outputName": "{projectName}详细设计评审意见书.docx",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "name": "开发与测试",
+            "folder": "08开发与测试",
+            "defaultSettings": {
+                "required": true
+            },
+            "documents": [
+                {
+                    "template": "08开发与测试/01开发工作方案/工作方案模板.docx",
+                    "outputName": "{projectName}开发工作方案.docx",
+                    "required": true,
+                    "aiFields": [
+                        {
+                            "field": "workPlan",
+                            "prompt": "为项目 {projectName} 描述主要工作成果、职责分工和工作进度安排。"
+                        }
+                    ]
+                },
+                {
+                    "template": "08开发与测试/03项目研发日志/日志审查记录.docx",
+                    "outputName": "{projectName}研发日志审查记录.docx",
+                    "required": false,
+                    "optionKey": "includeDevLog"
+                },
+                {
+                    "template": "08开发与测试/08测试方案/2、测试方案.docx",
+                    "outputName": "{projectName}测试方案.docx",
+                    "required": true,
+                    "aiFields": [
+                        {
+                            "field": "testPlan",
+                            "prompt": "为项目 {projectName} 制定测试方案和测试策略。"
+                        }
+                    ]
+                },
+                {
+                    "template": "08开发与测试/11测试报告/XX平台测试报告.docx",
+                    "outputName": "{projectName}测试报告.docx",
+                    "required": true
+                },
+                {
+                    "template": "08开发与测试/09测试用例/3、XX平台测试用例.xlsx",
+                    "outputName": "{projectName}测试用例.xlsx",
+                    "required": true
+                },
+                {
+                    "template": "08开发与测试/13系统部署手册/系统安装部署方案模板.docx",
+                    "outputName": "{projectName}系统安装部署方案.docx",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "name": "实施",
+            "folder": "09实施",
+            "defaultSettings": {
+                "required": true
+            },
+            "documents": [
+                {
+                    "template": "09实施/22培训方案/系统培训方案模板.docx",
+                    "outputName": "{projectName}系统培训方案.docx",
+                    "required": true,
+                    "aiFields": [
+                        {
+                            "field": "trainingPlan",
+                            "prompt": "为项目 {projectName} 制定系统培训方案和培训内容。"
+                        }
+                    ]
+                },
+                {
+                    "template": "09实施/23培训记录/2.培训签到表.docx",
+                    "outputName": "{projectName}培训签到表.docx",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "name": "验收",
+            "folder": "10验收",
+            "defaultSettings": {
+                "required": true
+            },
+            "documents": [
+                {
+                    "template": "10验收/03项目中期报告/项目工作报告_基于4D-BIM技术的变电修理技改项目管理系统研究与应用.docx",
+                    "outputName": "{projectName}项目中期报告.docx",
+                    "required": true,
+                    "aiFields": [
+                        {
+                            "field": "riskAnalysis",
+                            "prompt": "为项目 {projectName} 撰写风险分析和应对措施。"
+                        }
+                    ]
+                },
+                {
+                    "template": "10验收/08验收意见（正式盖章版）/2、项目竣工验收证书-xx项目.docx",
+                    "outputName": "{projectName}项目竣工验收证书.docx",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "name": "试运行",
+            "folder": "11试运行",
+            "defaultSettings": {
+                "required": true
+            },
+            "documents": [
+                {
+                    "template": "11试运行/02试运行报告/试运行报告.docx",
+                    "outputName": "{projectName}试运行报告.docx",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "name": "项目收尾",
+            "folder": "12项目收尾",
+            "defaultSettings": {
+                "required": true
+            },
+            "documents": [
+                {
+                    "template": "12项目收尾/01项目工作总结报告/xx项目工作总结.docx",
+                    "outputName": "{projectName}项目工作总结报告.docx",
+                    "required": true,
+                    "aiFields": [
+                        {
+                            "field": "projectSummary",
+                            "prompt": "为项目 {projectName} 撰写项目总结报告，包括项目成果、经验教训和改进建议。"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

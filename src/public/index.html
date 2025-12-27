@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自动化项目文档生成器</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header class="header">
+            <div class="logo">
+                <span class="logo-icon">📄</span>
+                <h1>自动化项目文档生成器</h1>
+            </div>
+            <p class="subtitle">快速生成标准化项目管理文档</p>
+        </header>
+
+        <!-- 主内容区 -->
+        <main class="main-content">
+            <!-- 表单卡片 -->
+            <div class="card form-card">
+                <h2 class="card-title">
+                    <span class="icon">📝</span>
+                    项目信息
+                </h2>
+                
+                <form id="projectForm" class="project-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="projectName">项目名称 <span class="required">*</span></label>
+                            <input type="text" id="projectName" name="projectName" required 
+                                   placeholder="例如：智慧城市管理平台">
+                        </div>
+                        <div class="form-group">
+                            <label for="projectCode">项目编号 <span class="required">*</span></label>
+                            <input type="text" id="projectCode" name="projectCode" required 
+                                   placeholder="例如：ZH2024-001">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="projectManager">项目经理 <span class="required">*</span></label>
+                            <input type="text" id="projectManager" name="projectManager" required 
+                                   placeholder="例如：张三">
+                        </div>
+                        <div class="form-group">
+                            <label for="companyName">公司名称 <span class="required">*</span></label>
+                            <input type="text" id="companyName" name="companyName" required 
+                                   placeholder="例如：科技有限公司">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="startYear">开始年份 <span class="required">*</span></label>
+                            <input type="text" id="startYear" name="startYear" required 
+                                   placeholder="例如：2024" maxlength="4">
+                        </div>
+                        <div class="form-group">
+                            <label for="startMonth">开始月份 <span class="required">*</span></label>
+                            <input type="text" id="startMonth" name="startMonth" required 
+                                   placeholder="例如：01" maxlength="2">
+                        </div>
+                        <div class="form-group">
+                            <label for="endYear">结束年份 <span class="required">*</span></label>
+                            <input type="text" id="endYear" name="endYear" required 
+                                   placeholder="例如：2024" maxlength="4">
+                        </div>
+                        <div class="form-group">
+                            <label for="endMonth">结束月份 <span class="required">*</span></label>
+                            <input type="text" id="endMonth" name="endMonth" required 
+                                   placeholder="例如：12" maxlength="2">
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="button" id="previewBtn" class="btn btn-secondary">
+                            <span class="btn-icon">👁️</span>
+                            预览文件
+                        </button>
+                        <button type="submit" id="generateBtn" class="btn btn-primary">
+                            <span class="btn-icon">🚀</span>
+                            生成文档
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- 预览区域 -->
+            <div id="previewSection" class="card preview-card hidden">
+                <h2 class="card-title">
+                    <span class="icon">📋</span>
+                    文件预览
+                    <span id="fileCount" class="badge">0 个文件</span>
+                </h2>
+                <div id="fileList" class="file-list"></div>
+            </div>
+
+            <!-- 进度区域 -->
+            <div id="progressSection" class="card progress-card hidden">
+                <h2 class="card-title">
+                    <span class="icon">⏳</span>
+                    生成进度
+                </h2>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div id="progressFill" class="progress-fill"></div>
+                    </div>
+                    <span id="progressText" class="progress-text">0%</span>
+                </div>
+                <p id="statusText" class="status-text">准备中...</p>
+            </div>
+
+            <!-- 结果区域 -->
+            <div id="resultSection" class="card result-card hidden">
+                <h2 class="card-title">
+                    <span class="icon">✅</span>
+                    生成完成
+                </h2>
+                <div class="result-content">
+                    <div class="result-info">
+                        <p><strong>文档数量：</strong><span id="docCount">-</span></p>
+                        <p><strong>生成时间：</strong><span id="generateTime">-</span></p>
+                        <p><strong>文件路径：</strong><span id="outputPath">-</span></p>
+                    </div>
+                    <div class="result-actions">
+                        <button id="newTaskBtn" class="btn btn-secondary">
+                            <span class="btn-icon">🔄</span>
+                            新建任务
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 错误区域 -->
+            <div id="errorSection" class="card error-card hidden">
+                <h2 class="card-title">
+                    <span class="icon">❌</span>
+                    发生错误
+                </h2>
+                <p id="errorMessage" class="error-message"></p>
+                <button id="retryBtn" class="btn btn-secondary">
+                    <span class="btn-icon">🔄</span>
+                    重试
+                </button>
+            </div>
+        </main>
+
+        <!-- 页脚 -->
+        <footer class="footer">
+            <p>自动化项目文档生成器 v1.0.0</p>
+        </footer>
+    </div>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,279 @@
+[
+  {
+    "filePath": "01立项\\01项目建议书\\xx项目建议书.doc",
+    "fileName": "xx项目建议书.doc",
+    "variables": [
+      "[需要手动检查 - .doc 格式]"
+    ],
+    "format": "doc"
+  },
+  {
+    "filePath": "01立项\\02项目可行性分析报告\\xxx项目可行性研究报告V0.1.docx",
+    "fileName": "xxx项目可行性研究报告V0.1.docx",
+    "variables": [
+      "说明本次投资的硬件、软件的计算依据说明",
+      "xx"
+    ],
+    "format": "docx"
+  },
+  {
+    "filePath": "01立项\\02项目可行性分析报告\\~$x项目可行性研究报告V0.1.docx",
+    "fileName": "~$x项目可行性研究报告V0.1.docx",
+    "variables": [],
+    "format": "docx"
+  },
+  {
+    "filePath": "02项目管理\\01计划任务书\\【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+    "fileName": "【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+    "variables": [],
+    "format": "docx"
+  },
+  {
+    "filePath": "03需求分析\\01需求规格说明书\\2、XX平台需求规格说明书.docx",
+    "fileName": "2、XX平台需求规格说明书.docx",
+    "variables": [
+      "XX",
+      "平台"
+    ],
+    "format": "docx"
+  },
+  {
+    "filePath": "03需求分析\\03需求评审意见书\\2、XX项目需求评审意见.docx",
+    "fileName": "2、XX项目需求评审意见.docx",
+    "variables": [
+      "XX",
+      "X"
+    ],
+    "format": "docx"
+  },
+  {
+    "filePath": "03需求分析\\03需求评审意见书\\~$XX项目需求评审意见.docx",
+    "fileName": "~$XX项目需求评审意见.docx",
+    "variables": [],
+    "format": "docx"
+  },
+  {
+    "filePath": "04研发制度管理\\01研发制度\\项目管理制度.docx",
+    "fileName": "项目管理制度.docx",
+    "variables": [
+      "X",
+      "XXX"
+    ],
+    "format": "docx"
+  },
+  {
+    "filePath": "04研发制度管理\\02工作规范\\3DMAX建模技术规范.docx",
+    "fileName": "3DMAX建模技术规范.docx",
+    "variables": [],
+    "format": "docx"
+  },
+  {
+    "filePath": "04研发制度管理\\02工作规范\\前端项目开发技术规范_V1.0.docx",
+    "fileName": "前端项目开发技术规范_V1.0.docx",
+    "variables": [
+      "X.YYY.ZZZ.AAA",
+      "X",
+      ".YYY.ZZZ.AAA",
+      "XXX"
+    ],
+    "format": "docx"
+  },
+  {
+    "filePath": "04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+    "fileName": "后台技术管理技术规范_V1.0.docx",
+    "variables": [
+      " return new SimpleDateFormat ( \" yyyy -MM-dd\" ); ",
+      " ... return obj; ",
+      "var",
+      ":+",
+      "Xxxx",
+      "xxx",
+      "Xxx"
+    ],
+    "format": "docx"
+  },
+  {
+    "filePath": "05研发团队情况\\05出入研发场地实验室签到表\\05出入研发场地实验室签到表.docx",
+    "fileName": "05出入研发场地实验室签到表.docx",
+    "variables": [
+      "X",
+      "XXX"
+    ],
+    "format": "docx"
+  },
+  {
+    "filePath": "06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+    "fileName": "XX建设项目概要设计说明书.docx",
+    "variables": [
+      "XX",
+      "平台"
+    ],
+    "format": "docx"
+  },
+  {
+    "filePath": "06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.doc",
+    "fileName": "概要设计说明书模板V1.0.doc",
+    "variables": [
+      "[需要手动检查 - .doc 格式]"
+    ],
+    "format": "doc"
+  },
+  {
+    "filePath": "06概要设计\\02概要设计评审意见书\\XX项目概要设计评审意见书.docx",
+    "fileName": "XX项目概要设计评审意见书.docx",
+    "variables": [
+      "XX"
+    ],
+    "format": "docx"
+  },
+  {
+    "filePath": "07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+    "fileName": "1、xx平台详细设计说明书(平台功能分册).docx",
+    "variables": [
+      "编写说明",
+      "XX",
+      "平台"
+    ],
+    "format": "docx"
+  },
+  {
+    "filePath": "07详细设计\\02详细设计评审意见书\\XX项目详细设计评审意见书.docx",
+    "fileName": "XX项目详细设计评审意见书.docx",
+    "variables": [
+      "XX"
+    ],
+    "format": "docx"
+  },
+  {
+    "filePath": "08开发与测试\\01开发工作方案\\工作方案模板.docx",
+    "fileName": "工作方案模板.docx",
+    "variables": [
+      "编写说明",
+      "XX",
+      "项目",
+      "XXXX",
+      "年XX月到XX年XX月",
+      "X",
+      "XXX"
+    ],
+    "format": "docx"
+  },
+  {
+    "filePath": "08开发与测试\\03项目研发日志\\日志审查记录.doc",
+    "fileName": "日志审查记录.doc",
+    "variables": [
+      "[需要手动检查 - .doc 格式]"
+    ],
+    "format": "doc"
+  },
+  {
+    "filePath": "08开发与测试\\04周报\\1、XX建设工作周报-20191021.docx",
+    "fileName": "1、XX建设工作周报-20191021.docx",
+    "variables": [],
+    "format": "docx"
+  },
+  {
+    "filePath": "08开发与测试\\08测试方案\\2、测试方案.doc",
+    "fileName": "2、测试方案.doc",
+    "variables": [
+      "[需要手动检查 - .doc 格式]"
+    ],
+    "format": "doc"
+  },
+  {
+    "filePath": "08开发与测试\\10测试用例评审意见\\测试用例评审意见书模板.docx",
+    "fileName": "测试用例评审意见书模板.docx",
+    "variables": [],
+    "format": "docx"
+  },
+  {
+    "filePath": "08开发与测试\\11测试报告\\XX平台测试报告.doc",
+    "fileName": "XX平台测试报告.doc",
+    "variables": [
+      "[需要手动检查 - .doc 格式]"
+    ],
+    "format": "doc"
+  },
+  {
+    "filePath": "08开发与测试\\13系统部署手册\\系统安装部署方案模板.doc",
+    "fileName": "系统安装部署方案模板.doc",
+    "variables": [
+      "[需要手动检查 - .doc 格式]"
+    ],
+    "format": "doc"
+  },
+  {
+    "filePath": "08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+    "fileName": "系统维护手册模版.docx",
+    "variables": [
+      " 阐明编写手册的目的并指明读者对象。 ",
+      " 说明项目的提出者、开发者、用户和使用场所。 ",
+      " 列出报告中所用到的专门术语的定义和缩写词的原意。 ",
+      " 说明系统具备的功能，输入和输出。 ",
+      " 说明系统安全保密方面的考虑 和用户权限的设置 。 ",
+      " 说明系统中每一程序、分程序的细节和特性。 ",
+      " 与程序 1 的说明相同。以后的其他各程序的说明相同。 ",
+      " 逐项说明系统的设备配置及其特性。 ",
+      " 列出系统使用的支持软件，包括它们的名称和版本号。 ",
+      " 说明每个数据库的性质和内容，包括安全考虑。 ",
+      " 如标识符、使用这些数据库的程序、静态数据、动态数据；数据库的存储媒体；程序使用数据库的限制。 ",
+      " 说明一个程序段修改后，对其进行验证的要求和过程（包括测试程序和数据）及程序周期性验证的过程。 ",
+      " 列出出错状态及其纠正方法。 ",
+      " 引用或提供附录给出程序清单和流程图。 ",
+      "说明问题的表象及特征及解决过程"
+    ],
+    "format": "docx"
+  },
+  {
+    "filePath": "09实施\\22培训方案\\系统培训方案模板.doc",
+    "fileName": "系统培训方案模板.doc",
+    "variables": [
+      "[需要手动检查 - .doc 格式]"
+    ],
+    "format": "doc"
+  },
+  {
+    "filePath": "09实施\\23培训记录\\2.培训签到表.doc",
+    "fileName": "2.培训签到表.doc",
+    "variables": [
+      "[需要手动检查 - .doc 格式]"
+    ],
+    "format": "doc"
+  },
+  {
+    "filePath": "10验收\\03项目中期报告\\项目工作报告_基于4D-BIM技术的变电修理技改项目管理系统研究与应用.docx",
+    "fileName": "项目工作报告_基于4D-BIM技术的变电修理技改项目管理系统研究与应用.docx",
+    "variables": [],
+    "format": "docx"
+  },
+  {
+    "filePath": "10验收\\08验收意见（正式盖章版）\\2、项目竣工验收证书-xx项目.docx",
+    "fileName": "2、项目竣工验收证书-xx项目.docx",
+    "variables": [
+      "xx",
+      "xxx"
+    ],
+    "format": "docx"
+  },
+  {
+    "filePath": "11试运行\\02试运行报告\\试运行报告.docx",
+    "fileName": "试运行报告.docx",
+    "variables": [
+      "平台",
+      "XX",
+      "xx",
+      "xxx",
+      "Xx",
+      "x"
+    ],
+    "format": "docx"
+  },
+  {
+    "filePath": "12项目收尾\\01项目工作总结报告\\xx项目工作总结.docx",
+    "fileName": "xx项目工作总结.docx",
+    "variables": [
+      "xx"
+    ],
+    "format": "docx"
+  }
+]

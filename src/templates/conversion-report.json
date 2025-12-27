@@ -1,0 +1,3115 @@
+{
+  "results": [
+    {
+      "filePath": "01立项\\01项目建议书\\xx项目建议书.doc",
+      "fileName": "xx项目建议书.doc",
+      "format": "doc",
+      "converted": false,
+      "variablesFound": [],
+      "variablesReplaced": [],
+      "aiContentSuggestions": [],
+      "errors": [
+        ".doc 格式需要先转换为 .docx"
+      ]
+    },
+    {
+      "filePath": "template\\01立项\\01项目建议书\\xx项目建议书.docx",
+      "fileName": "xx项目建议书.docx",
+      "format": "docx",
+      "converted": true,
+      "variablesFound": [
+        "XX"
+      ],
+      "variablesReplaced": [
+        {
+          "original": "XX公司",
+          "replacement": "{companyName}"
+        }
+      ],
+      "aiContentSuggestions": [
+        {
+          "location": "template\\01立项\\01项目建议书\\xx项目建议书.docx",
+          "content": "包含\"总结\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 撰写项目总结报告"
+        },
+        {
+          "location": "template\\01立项\\01项目建议书\\xx项目建议书.docx",
+          "content": "包含\"背景\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "filePath": "template\\01立项\\02项目可行性分析报告\\xxx项目可行性研究报告V0.1.docx",
+      "fileName": "xxx项目可行性研究报告V0.1.docx",
+      "format": "docx",
+      "converted": true,
+      "variablesFound": [
+        "xx"
+      ],
+      "variablesReplaced": [],
+      "aiContentSuggestions": [
+        {
+          "location": "template\\01立项\\02项目可行性分析报告\\xxx项目可行性研究报告V0.1.docx",
+          "content": "说明 【说明本次投资的硬件、软件的计算依据说明】 1、整体单价取费原则：根据公司信息化项目预算编制与计算方法，开发费1 5 00元/人天，实施推广 12 00元/人天（含差旅费）。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 【说明本次投资的硬件、软件的计算依据说明】 1、整体单价取费原则：根据公司信息化项目预算编制与计算方法，开发费1 5 00元/人天，实施推广 12 00元/人天（含差旅费）。"
+        },
+        {
+          "location": "template\\01立项\\02项目可行性分析报告\\xxx项目可行性研究报告V0.1.docx",
+          "content": "描述应用范围功能框架 。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述应用范围功能框架 。"
+        },
+        {
+          "location": "template\\01立项\\02项目可行性分析报告\\xxx项目可行性研究报告V0.1.docx",
+          "content": "描述 内部逻辑文 件 外部逻辑文 件 总投资 项目费用汇总表 表一甲 单位：万元 序号 建设单位 项目名称 投资估算(按费用性质) 投资估算(按费用类别) 资本性 费用性 合计 建设费 设备购置费 维...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 内部逻辑文 件 外部逻辑文 件 总投资 项目费用汇总表 表一甲 单位：万元 序号 建设单位 项目名称 投资估算(按费用性质) 投资估算(按费用类别) 资本性 费用性 合计 建设费 设备购置费 维护费 其他费用 合计 1 合计 具体各单位项目投资估算情况详见附件《 2019 年 x x 公司 xx 项目 可行性研究估算书》。"
+        },
+        {
+          "location": "template\\01立项\\02项目可行性分析报告\\xxx项目可行性研究报告V0.1.docx",
+          "content": "包含\"可行性\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 撰写可行性分析报告"
+        },
+        {
+          "location": "template\\01立项\\02项目可行性分析报告\\xxx项目可行性研究报告V0.1.docx",
+          "content": "包含\"风险\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 撰写风险分析和应对措施"
+        },
+        {
+          "location": "template\\01立项\\02项目可行性分析报告\\xxx项目可行性研究报告V0.1.docx",
+          "content": "包含\"背景\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+        },
+        {
+          "location": "template\\01立项\\02项目可行性分析报告\\xxx项目可行性研究报告V0.1.docx",
+          "content": "包含\"目标\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+        },
+        {
+          "location": "template\\01立项\\02项目可行性分析报告\\xxx项目可行性研究报告V0.1.docx",
+          "content": "包含\"技术方案\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述技术实现方案"
+        },
+        {
+          "location": "template\\01立项\\02项目可行性分析报告\\xxx项目可行性研究报告V0.1.docx",
+          "content": "包含\"实施计划\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 制定项目实施计划"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "filePath": "template\\02项目管理\\01计划任务书\\【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+      "fileName": "【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+      "format": "docx",
+      "converted": false,
+      "variablesFound": [],
+      "variablesReplaced": [],
+      "aiContentSuggestions": [
+        {
+          "location": "template\\02项目管理\\01计划任务书\\【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+          "content": "说明书要求 集成子系统的功能在统一平台的呈现。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书要求 集成子系统的功能在统一平台的呈现。"
+        },
+        {
+          "location": "template\\02项目管理\\01计划任务书\\【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+          "content": "说明书审查 项目建议书、 可研 功能需求说明书 1.2 初设 初步设计 初步设计 1.3 招标 招标方案 招标 招标方案 签订合同 2 项目启动 组织到位 2019年5月-2019年6月 2.1 成立...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书审查 项目建议书、 可研 功能需求说明书 1.2 初设 初步设计 初步设计 1.3 招标 招标方案 招标 招标方案 签订合同 2 项目启动 组织到位 2019年5月-2019年6月 2.1 成立项目部 成立项目 工作 组 。"
+        },
+        {
+          "location": "template\\02项目管理\\01计划任务书\\【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+          "content": "说明、总体功能说明、各子系统功能说明、站控层高级模块功能设计等。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明、总体功能说明、各子系统功能说明、站控层高级模块功能设计等。"
+        },
+        {
+          "location": "template\\02项目管理\\01计划任务书\\【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+          "content": "说明、施工图、设备及主要材料清册。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明、施工图、设备及主要材料清册。"
+        },
+        {
+          "location": "template\\02项目管理\\01计划任务书\\【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+          "content": "说明书 测试平台 2019 年 7 月 3.3 巡视监测子系统的搭建 已有巡视监测子系统的功能分析。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书 测试平台 2019 年 7 月 3.3 巡视监测子系统的搭建 已有巡视监测子系统的功能分析。"
+        },
+        {
+          "location": "template\\02项目管理\\01计划任务书\\【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+          "content": "包含\"风险\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 撰写风险分析和应对措施"
+        },
+        {
+          "location": "template\\02项目管理\\01计划任务书\\【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+          "content": "包含\"背景\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+        },
+        {
+          "location": "template\\02项目管理\\01计划任务书\\【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+          "content": "包含\"目标\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+        },
+        {
+          "location": "template\\02项目管理\\01计划任务书\\【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+          "content": "包含\"技术方案\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述技术实现方案"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "filePath": "template\\03需求分析\\01需求规格说明书\\2、XX平台需求规格说明书.docx",
+      "fileName": "2、XX平台需求规格说明书.docx",
+      "format": "docx",
+      "converted": true,
+      "variablesFound": [
+        "XX"
+      ],
+      "variablesReplaced": [
+        {
+          "original": "XX平台",
+          "replacement": "{projectName}平台"
+        }
+      ],
+      "aiContentSuggestions": [
+        {
+          "location": "template\\03需求分析\\01需求规格说明书\\2、XX平台需求规格说明书.docx",
+          "content": "说明书》分别给予说明，而平台的非功能性需求将由本文档从平台性能、可靠性、可维护性、易用性、可扩展性、安全性等方面进行描述。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书》分别给予说明，而平台的非功能性需求将由本文档从平台性能、可靠性、可维护性、易用性、可扩展性、安全性等方面进行描述。"
+        },
+        {
+          "location": "template\\03需求分析\\01需求规格说明书\\2、XX平台需求规格说明书.docx",
+          "content": "列出线路上的各类设备数目和清单，支持设备图上定位 。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，列出线路上的各类设备数目和清单，支持设备图上定位 。"
+        },
+        {
+          "location": "template\\03需求分析\\01需求规格说明书\\2、XX平台需求规格说明书.docx",
+          "content": "列出系统安全防护要求，编制完成《系统安全需求分析报告》。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，列出系统安全防护要求，编制完成《系统安全需求分析报告》。"
+        },
+        {
+          "location": "template\\03需求分析\\01需求规格说明书\\2、XX平台需求规格说明书.docx",
+          "content": "包含\"背景\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+        },
+        {
+          "location": "template\\03需求分析\\01需求规格说明书\\2、XX平台需求规格说明书.docx",
+          "content": "包含\"目标\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "filePath": "template\\03需求分析\\03需求评审意见书\\2、XX项目需求评审意见.docx",
+      "fileName": "2、XX项目需求评审意见.docx",
+      "format": "docx",
+      "converted": true,
+      "variablesFound": [
+        "XX",
+        "XXXX"
+      ],
+      "variablesReplaced": [
+        {
+          "original": "XXX",
+          "replacement": "{personName}"
+        }
+      ],
+      "aiContentSuggestions": [
+        {
+          "location": "template\\03需求分析\\03需求评审意见书\\2、XX项目需求评审意见.docx",
+          "content": "说明书》（一下简称“需求规格说明书”）。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书》（一下简称“需求规格说明书”）。"
+        },
+        {
+          "location": "template\\03需求分析\\03需求评审意见书\\2、XX项目需求评审意见.docx",
+          "content": "说明书完整、规范，符合评审要求。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书完整、规范，符合评审要求。"
+        },
+        {
+          "location": "template\\03需求分析\\03需求评审意见书\\2、XX项目需求评审意见.docx",
+          "content": "说明书通过评审，并建议项目组根据会议中提出的意见（另附）进一步完善 。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书通过评审，并建议项目组根据会议中提出的意见（另附）进一步完善 。"
+        },
+        {
+          "location": "template\\03需求分析\\03需求评审意见书\\2、XX项目需求评审意见.docx",
+          "content": "包含\"目标\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+        },
+        {
+          "location": "template\\03需求分析\\03需求评审意见书\\2、XX项目需求评审意见.docx",
+          "content": "包含\"实施计划\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 制定项目实施计划"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "filePath": "template\\04研发制度管理\\01研发制度\\项目管理制度.docx",
+      "fileName": "项目管理制度.docx",
+      "format": "docx",
+      "converted": true,
+      "variablesFound": [
+        "XXX"
+      ],
+      "variablesReplaced": [
+        {
+          "original": "XXX",
+          "replacement": "{personName}"
+        }
+      ],
+      "aiContentSuggestions": [],
+      "errors": []
+    },
+    {
+      "filePath": "template\\04研发制度管理\\02工作规范\\3DMAX建模技术规范.docx",
+      "fileName": "3DMAX建模技术规范.docx",
+      "format": "docx",
+      "converted": false,
+      "variablesFound": [],
+      "variablesReplaced": [],
+      "aiContentSuggestions": [],
+      "errors": []
+    },
+    {
+      "filePath": "template\\04研发制度管理\\02工作规范\\前端项目开发技术规范_V1.0.docx",
+      "fileName": "前端项目开发技术规范_V1.0.docx",
+      "format": "docx",
+      "converted": true,
+      "variablesFound": [
+        "XXX"
+      ],
+      "variablesReplaced": [
+        {
+          "original": "XXX",
+          "replacement": "{personName}"
+        }
+      ],
+      "aiContentSuggestions": [
+        {
+          "location": "template\\04研发制度管理\\02工作规范\\前端项目开发技术规范_V1.0.docx",
+          "content": "描述包含 : ** 日期 ** 姓名 ** 审阅 ** 功能 ** 备注 函数方法注释： 函数用途 参数描述 返回值描述 备注 关键算法注释： 用途描述 关键点解释 注意事项 修改方法 文件夹规范 为...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述包含 : ** 日期 ** 姓名 ** 审阅 ** 功能 ** 备注 函数方法注释： 函数用途 参数描述 返回值描述 备注 关键算法注释： 用途描述 关键点解释 注意事项 修改方法 文件夹规范 为规范化文件夹不允许含有中文名。"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "filePath": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+      "fileName": "后台技术管理技术规范_V1.0.docx",
+      "format": "docx",
+      "converted": true,
+      "variablesFound": [
+        "XX",
+        "xxx",
+        "xx",
+        "Xxxx",
+        "Xxx"
+      ],
+      "variablesReplaced": [],
+      "aiContentSuggestions": [
+        {
+          "location": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+          "content": "说明性 ， 成员变量不需要添加 “_” 前缀 ， 成员变量添加 “_” 前缀格式化代码 1&gt; 指针 定义一个对象时，指针 \"*\" 靠近变量 例子 : NSString * userName ; ...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明性 ， 成员变量不需要添加 “_” 前缀 ， 成员变量添加 “_” 前缀格式化代码 1&gt; 指针 定义一个对象时，指针 \"*\" 靠近变量 例子 : NSString * userName ; 2&gt; 方法的声明和定义 在 - 、 + 和 返回值 之间留一个空格，方法名和第一个参数之间不留空格 可变数组或字典变量名 宏命名： 全部大写，单词间用 _ 分隔。"
+        },
+        {
+          "location": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+          "content": "说明“为什么这么做”。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明“为什么这么做”。"
+        },
+        {
+          "location": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+          "content": "说明 : HashMap 使用 HashMap(int initialCapacity ) 初始化 , 正例 : initialCapacity = ( 需要存储的元素个数 / 负载因子 ) + 1 ...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 : HashMap 使用 HashMap(int initialCapacity ) 初始化 , 正例 : initialCapacity = ( 需要存储的元素个数 / 负载因子 ) + 1 。"
+        },
+        {
+          "location": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+          "content": "说明什么情况下会返回 null 值。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明什么情况下会返回 null 值。"
+        },
+        {
+          "location": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+          "content": "说明什么情况下返回为空 其他 在使用正则表达式时要学会利用预编译，加快正则匹配速度，定义正则的时候不要在方法体内进行定义。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明什么情况下返回为空 其他 在使用正则表达式时要学会利用预编译，加快正则匹配速度，定义正则的时候不要在方法体内进行定义。"
+        },
+        {
+          "location": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+          "content": "说明注释掉代码的理由。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明注释掉代码的理由。"
+        },
+        {
+          "location": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+          "content": "描述的，我们完全可以用程代码本身来表达它到底在干什么，而不需要注释的辅助。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述的，我们完全可以用程代码本身来表达它到底在干什么，而不需要注释的辅助。"
+        },
+        {
+          "location": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+          "content": "描述的是“什么时候不做什么”，所以为了读懂二者所在的代码，我们需要在头脑里将他们取反。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述的是“什么时候不做什么”，所以为了读懂二者所在的代码，我们需要在头脑里将他们取反。"
+        },
+        {
+          "location": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+          "content": "列出所有分支（穷举所有的情况），而且每个分支都必须给出明确的结果。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，列出所有分支（穷举所有的情况），而且每个分支都必须给出明确的结果。"
+        },
+        {
+          "location": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+          "content": "包含\"风险\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 撰写风险分析和应对措施"
+        },
+        {
+          "location": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+          "content": "包含\"目标\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "filePath": "template\\05研发团队情况\\05出入研发场地实验室签到表\\05出入研发场地实验室签到表.docx",
+      "fileName": "05出入研发场地实验室签到表.docx",
+      "format": "docx",
+      "converted": true,
+      "variablesFound": [
+        "XXX"
+      ],
+      "variablesReplaced": [
+        {
+          "original": "XXX",
+          "replacement": "{personName}"
+        }
+      ],
+      "aiContentSuggestions": [],
+      "errors": []
+    },
+    {
+      "filePath": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+      "fileName": "XX建设项目概要设计说明书.docx",
+      "format": "docx",
+      "converted": true,
+      "variablesFound": [
+        "XX"
+      ],
+      "variablesReplaced": [
+        {
+          "original": "XX平台",
+          "replacement": "{projectName}平台"
+        }
+      ],
+      "aiContentSuggestions": [
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+          "content": "说明书中的功能项和功能子项进行优化重组，形成一级应用功能。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书中的功能项和功能子项进行优化重组，形成一级应用功能。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+          "content": "说明了系统的安全的重要性，同时系统安全也一包括多学科的系统安全问题。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明了系统的安全的重要性，同时系统安全也一包括多学科的系统安全问题。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+          "content": "说明 电网 各部门 、直属单位、县局 机密性赋值 机密 完整性赋值 100% 可用性赋值 100% 数据流转分析 数据流转过程 简要说明 数据来源： 电网 所辖范围的电力设备数据； 使用者： 电网 各...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 电网 各部门 、直属单位、县局 机密性赋值 机密 完整性赋值 100% 可用性赋值 100% 数据流转分析 数据流转过程 简要说明 数据来源： 电网 所辖范围的电力设备数据； 使用者： 电网 各部门 、直属单位、县局 运行单位人员； 数据途径环节： web 中间件程序读取、处理、写入数据库。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+          "content": "描述 XX 平台 的应用功能范围及相互间的关系。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 XX 平台 的应用功能范围及相互间的关系。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+          "content": "描述 E-ZYGL01 -01 锁定显示样式 对设备图层的显示样式进行锁定设置与解锁功能。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 E-ZYGL01 -01 锁定显示样式 对设备图层的显示样式进行锁定设置与解锁功能。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+          "content": "描述 E- WG02 -01 海量数据接入 包括准实时 数据加载、准实时数据 Web XX 显示、气象数据接入功能 。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 E- WG02 -01 海量数据接入 包括准实时 数据加载、准实时数据 Web XX 显示、气象数据接入功能 。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+          "content": "描述 E-WG03-0 1 行政 区划控制 包括 启动 /关闭 行政区划、初始化行政区划图、区域着色、区域定位、区域上叠加文字。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 E-WG03-0 1 行政 区划控制 包括 启动 /关闭 行政区划、初始化行政区划图、区域着色、区域定位、区域上叠加文字。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+          "content": "描述 E-SC01-0 1 准实时数据接入 电网空间信息服务与 海量实时数据平台 等进行交互，接入自动化和气象环境等监测数据，提供基于实时信息的拓扑分析和可视化展现服务。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 E-SC01-0 1 准实时数据接入 电网空间信息服务与 海量实时数据平台 等进行交互，接入自动化和气象环境等监测数据，提供基于实时信息的拓扑分析和可视化展现服务。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+          "content": "描述信息发布，信息集成平台服务自发现和注册，服务运行信息发布，服务调度和群集，日志和性能监视等组件。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述信息发布，信息集成平台服务自发现和注册，服务运行信息发布，服务调度和群集，日志和性能监视等组件。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+          "content": "描述信息查询、图形输出和矢量输出等功能。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述信息查询、图形输出和矢量输出等功能。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+          "content": "描述 系统主机主要指为系统提供服务器的服务器，包括应用服务器、数据服务器等。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 系统主机主要指为系统提供服务器的服务器，包括应用服务器、数据服务器等。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+          "content": "描述 网络设备需要进行安全配置，禁止不需要的服务和端口。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 网络设备需要进行安全配置，禁止不需要的服务和端口。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+          "content": "描述 描述终端具体类型：包括信息内外网办公计算机终端、移动作业和移动办公终端和信息采集类终端。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 描述终端具体类型：包括信息内外网办公计算机终端、移动作业和移动办公终端和信息采集类终端。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+          "content": "描述 XX 平台 数据库，用于存储电网资源数据。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 XX 平台 数据库，用于存储电网资源数据。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+          "content": "包含\"背景\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+          "content": "包含\"目标\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+          "content": "包含\"技术方案\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述技术实现方案"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "filePath": "06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.doc",
+      "fileName": "概要设计说明书模板V1.0.doc",
+      "format": "doc",
+      "converted": false,
+      "variablesFound": [],
+      "variablesReplaced": [],
+      "aiContentSuggestions": [],
+      "errors": [
+        ".doc 格式需要先转换为 .docx"
+      ]
+    },
+    {
+      "filePath": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+      "fileName": "概要设计说明书模板V1.0.docx",
+      "format": "docx",
+      "converted": true,
+      "variablesFound": [
+        "XXXX",
+        "XXXXX",
+        "XX",
+        "XXX",
+        "xxx",
+        "xxxx"
+      ],
+      "variablesReplaced": [
+        {
+          "original": "XXX",
+          "replacement": "{personName}"
+        }
+      ],
+      "aiContentSuggestions": [
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明]包括应用架构、集成架构功能和集成场景内容。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明]包括应用架构、集成架构功能和集成场景内容。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明]包括技术架构、物理架构、安全架构、集成架构技术平台部分。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明]包括技术架构、物理架构、安全架构、集成架构技术平台部分。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】在总体架构应用域视图中，标示出本项目对应的应用域 本项目所属的应用域如下： false 【编写说明】在总体架构应用视图中，标示出本项目对应的应用 false 应用模块 【编写说明】在总体架构应用...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】在总体架构应用域视图中，标示出本项目对应的应用域 本项目所属的应用域如下： false 【编写说明】在总体架构应用视图中，标示出本项目对应的应用 false 应用模块 【编写说明】在总体架构应用功能视图中，明确要实现应用模块。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】对需求规格说明书中的功能项和功能子项进行优化重组，形成一级应用功能。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】对需求规格说明书中的功能项和功能子项进行优化重组，形成一级应用功能。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】 二级应用模块编码：与总体架构二级应用模块编号设计一致。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】 二级应用模块编码：与总体架构二级应用模块编号设计一致。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】对每个一级应用模块进行应用功能设计至最细粒度，并分析功能之间的依赖关系。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】对每个一级应用模块进行应用功能设计至最细粒度，并分析功能之间的依赖关系。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】如果一级应用模块下应用功能较多，可按每个二级应用模块对应一节，进行应用功能设计。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】如果一级应用模块下应用功能较多，可按每个二级应用模块对应一节，进行应用功能设计。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】： 编号：为应用模块或应用功能的编码，编码格式为AM[XXXX.XXXX.XXXX.XXXX] 模块/功能名称：为应用模块或应用功能的名称。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】： 编号：为应用模块或应用功能的编码，编码格式为AM[XXXX.XXXX.XXXX.XXXX] 模块/功能名称：为应用模块或应用功能的名称。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】系统的功能由一系列的组件协作实现。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】系统的功能由一系列的组件协作实现。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】如果每层放置的组件很多，可以将每一层作为一个图进行绘制。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】如果每层放置的组件很多，可以将每一层作为一个图进行绘制。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】列出应用组件清单。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】列出应用组件清单。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】： 组件编号：为应用组件的流水号，编码格式为A C[XXXX.XXXX] 组件名称：为应用组件的名称。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】： 组件编号：为应用组件的流水号，编码格式为A C[XXXX.XXXX] 组件名称：为应用组件的名称。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】列出应用服务清单。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】列出应用服务清单。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】在总体架构应用交互视图中，标示本系统要实现的交互关系。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】在总体架构应用交互视图中，标示本系统要实现的交互关系。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明如下： 编号 交互名称 源应用 源功能 目标应用 目标功能 源到目标信息 目标返回信息 交互描述 AI0001 客户信息交互 07-安全生产管理 系统公共管理 12-营销管理 业扩报装 客户基本信...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明如下： 编号 交互名称 源应用 源功能 目标应用 目标功能 源到目标信息 目标返回信息 交互描述 AI0001 客户信息交互 07-安全生产管理 系统公共管理 12-营销管理 业扩报装 客户基本信息 在营配集成中，营销管理应用将客户信息传递给安全生产应用中做停电计划优化。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】需填写《应用集成服务需求说明书》，模版详见《公司管理信息化推进技术管控要求》。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】需填写《应用集成服务需求说明书》，模版详见《公司管理信息化推进技术管控要求》。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】采用图形化方式描述系统间集成关系。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】采用图形化方式描述系统间集成关系。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】按下列表格定义对总体集成关系进行说明。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】按下列表格定义对总体集成关系进行说明。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】： 系统集成编号：为系统集成的流水号，编码格式为 SI[XXXX] 源系统：源系统名称。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】： 系统集成编号：为系统集成的流水号，编码格式为 SI[XXXX] 源系统：源系统名称。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】根据需求规格设计应用角色，补充系统管理类角色，并根据数据约束对角色进行细分，形成角色清单。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】根据需求规格设计应用角色，补充系统管理类角色，并根据数据约束对角色进行细分，形成角色清单。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明：对角色职能的描述。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明：对角色职能的描述。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】建立角色与应用功能的分配关系，形成角色分配视图。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】建立角色与应用功能的分配关系，形成角色分配视图。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】： 横向上为应用功能，应用功能到权限分配的最小粒度；纵向上为应用角色；应用角色与应用功能有分配关系，在交叉点用“√”表示。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】： 横向上为应用功能，应用功能到权限分配的最小粒度；纵向上为应用角色；应用角色与应用功能有分配关系，在交叉点用“√”表示。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】对应用组件在总部和分子公司的部署和集成的分布关系进行设计。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】对应用组件在总部和分子公司的部署和集成的分布关系进行设计。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】在总体架构数据域视图中，标示出该项目所涉及到的数据域。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】在总体架构数据域视图中，标示出该项目所涉及到的数据域。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】在总体架构数据主题视图中，分别以图示方式描述数据主题以及主题间的关系。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】在总体架构数据主题视图中，分别以图示方式描述数据主题以及主题间的关系。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】在总体架构概念数据实体视图中，标示出相关的概念实体。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】在总体架构概念数据实体视图中，标示出相关的概念实体。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】每个数据主题对应一节。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】每个数据主题对应一节。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】依据需求规格说明书，将逻辑模型与需求规格说明书中的业务对象进行映射，同时将逻辑模型与《数据模型规范》中的数据模型映射，并将引用标准中章节和主题库E-R图进行描述。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】依据需求规格说明书，将逻辑模型与需求规格说明书中的业务对象进行映射，同时将逻辑模型与《数据模型规范》中的数据模型映射，并将引用标准中章节和主题库E-R图进行描述。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明书的业务对象进行映射，包括后面的数据项； 对应的基本表名称，将逻辑模型与《数据模型规范》、《基本数据集》在的基本表名称进行映射，包括后面的属性标识和属性名称。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书的业务对象进行映射，包括后面的数据项； 对应的基本表名称，将逻辑模型与《数据模型规范》、《基本数据集》在的基本表名称进行映射，包括后面的属性标识和属性名称。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明 字段名 字段代码 注释 数据类型 主键 外键 非空 是否主数据项 引用编码标准 数据质量要求 对应的业务对象 数据项 对应的基本表名称 属性标识 属性名称 FW_YKGZDJBXX 业扩工作单基...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 字段名 字段代码 注释 数据类型 主键 外键 非空 是否主数据项 引用编码标准 数据质量要求 对应的业务对象 数据项 对应的基本表名称 属性标识 属性名称 FW_YKGZDJBXX 业扩工作单基本信息 以业扩报装流程作为核心，围绕核心的实体。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】依据总体架构数据分布视图，识别出相关概念实体的分布情况。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】依据总体架构数据分布视图，识别出相关概念实体的分布情况。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】识别应用和逻辑模型分布视图。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】识别应用和逻辑模型分布视图。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】描述逻辑实体对概念实体的继承和细化关系。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】描述逻辑实体对概念实体的继承和细化关系。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】每个数据主题对应一节，展示系统逻辑数据模型。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】每个数据主题对应一节，展示系统逻辑数据模型。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】描述逻辑实体与应用组件之间的 CRUD 关系。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】描述逻辑实体与应用组件之间的 CRUD 关系。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】描述应用系统技术路线。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】描述应用系统技术路线。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】描述应用系统逻辑模型。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】描述应用系统逻辑模型。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】描述应用系统技术实现方案。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】描述应用系统技术实现方案。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】此处总体分析应用系统对平台组件的接入需求。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】此处总体分析应用系统对平台组件的接入需求。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】以下对接入需求进行详细设计和描述。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】以下对接入需求进行详细设计和描述。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】此处应用系统按照4A平台技术规范-应用系统集成接口规范相关要求，从下列4A平台集成方式中选择符合应用系统自身特点的集成方式进行集成接口设计。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】此处应用系统按照4A平台技术规范-应用系统集成接口规范相关要求，从下列4A平台集成方式中选择符合应用系统自身特点的集成方式进行集成接口设计。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明该用户是没有经过认证的，Agent会重定向用户请求到SSO服务端（Step 2）。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明该用户是没有经过认证的，Agent会重定向用户请求到SSO服务端（Step 2）。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】此处应用系统按照门户技术规范-应用系统集成接口规范相关要求，并结合自身系统特点进行集成接口设计。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】此处应用系统按照门户技术规范-应用系统集成接口规范相关要求，并结合自身系统特点进行集成接口设计。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】：设计应遵循《南方电网公司内外网数据安全交换平台技术规范》和《南方电网公司内外网数据安全交互规范》。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】：设计应遵循《南方电网公司内外网数据安全交换平台技术规范》和《南方电网公司内外网数据安全交互规范》。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】定义出系统的所有逻辑部署单元及其依赖关系，并按如下表格要求，说明每个部署单元所包含的组件。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】定义出系统的所有逻辑部署单元及其依赖关系，并按如下表格要求，说明每个部署单元所包含的组件。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】： 部署单元编号：为部署单元流水号，编码格式为DU[XX] 部署单元名称：部署单元的名称 部署单元描述：为该部署单元的主要用途等做说明 非功能需求：部署单元所包括组件的非功能需求 组件编号：为组...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】： 部署单元编号：为部署单元流水号，编码格式为DU[XX] 部署单元名称：部署单元的名称 部署单元描述：为该部署单元的主要用途等做说明 非功能需求：部署单元所包括组件的非功能需求 组件编号：为组件的流水号。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】适用于非云部署，以图形和文字定义部署节点逻辑组成，应描述节点承载的部署单元，并说明设计原因。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】适用于非云部署，以图形和文字定义部署节点逻辑组成，应描述节点承载的部署单元，并说明设计原因。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】虚框表示逻辑部署节点，实框表示物理部署节点。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】虚框表示逻辑部署节点，实框表示物理部署节点。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】： 部署节点编号：为部署节点流水号，编码格式为DP[XX] 部署节点名称：部署节点的名称 部署节点描述：为该部署节点的说明 相关部署单元：部署在该部署节点上部署单元的编号 硬件名称：该部署节点需...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】： 部署节点编号：为部署节点流水号，编码格式为DP[XX] 部署节点名称：部署节点的名称 部署节点描述：为该部署节点的说明 相关部署单元：部署在该部署节点上部署单元的编号 硬件名称：该部署节点需要包括的硬件。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】对应用系统自身的非功能设计进行分析。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】对应用系统自身的非功能设计进行分析。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明 是否通过审批 备注 1 总体架构差异 “中标通知”功能在物资管理系统中实现；而总体架构中是在电子商务平台系统中实现 是 在电子商务平台系统实现后，该部分功能迁移至电子商务平台。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 是否通过审批 备注 1 总体架构差异 “中标通知”功能在物资管理系统中实现；而总体架构中是在电子商务平台系统中实现 是 在电子商务平台系统实现后，该部分功能迁移至电子商务平台。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明】： 编号：差异编号，流水号，从数字1开始。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】： 编号：差异编号，流水号，从数字1开始。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "说明：对差异的情况进行说明，如“增加了 … ”、“修改了 … ”。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明：对差异的情况进行说明，如“增加了 … ”、“修改了 … ”。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "描述 AM0001 业扩报装 XXXX AM0001.0001 预受理与受理 包括了预受理报装、业务受理、处理结果通知、临时用电延期审批、到期业务通知客户等功能。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 AM0001 业扩报装 XXXX AM0001.0001 预受理与受理 包括了预受理报装、业务受理、处理结果通知、临时用电延期审批、到期业务通知客户等功能。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "描述：模块内容描述与总体架构设计一致。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述：模块内容描述与总体架构设计一致。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "描述对该功能进行说明。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述对该功能进行说明。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "描述 AI0001 客户信息交互 07-安全生产管理 系统公共管理 12-营销管理 业扩报装 客户基本信息 在营配集成中，营销管理应用将客户信息传递给安全生产应用中做停电计划优化。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 AI0001 客户信息交互 07-安全生产管理 系统公共管理 12-营销管理 业扩报装 客户基本信息 在营配集成中，营销管理应用将客户信息传递给安全生产应用中做停电计划优化。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "描述 集成方式 对应应用交互 实现方式 源系统 目标系统 频率 实时性 数据量 IC001 营销系统 财务管理系统 每天一次 中 20M 应用集成 AI.12.14.05 应用集成平台 其他 其他 其...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 集成方式 对应应用交互 实现方式 源系统 目标系统 频率 实时性 数据量 IC001 营销系统 财务管理系统 每天一次 中 20M 应用集成 AI.12.14.05 应用集成平台 其他 其他 其他 其他 其他 其他 其他 其他 其他 【编写说明】： 系统集成编号：为系统集成的流水号，编码格式为 SI[XXXX] 源系统：源系统名称。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "描述数据主题以及主题间的关系。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述数据主题以及主题间的关系。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "描述； 数据质量要求，填写有数据质量要求，描述了该数据项的由业务对象中业务规则转换，例如非空、唯一性、长度、格式、类型、阀值等相关内容； 对应的业务对象，将逻辑模型与需求规格说明书的业务对象进行映射，...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述； 数据质量要求，填写有数据质量要求，描述了该数据项的由业务对象中业务规则转换，例如非空、唯一性、长度、格式、类型、阀值等相关内容； 对应的业务对象，将逻辑模型与需求规格说明书的业务对象进行映射，包括后面的数据项； 对应的基本表名称，将逻辑模型与《数据模型规范》、《基本数据集》在的基本表名称进行映射，包括后面的属性标识和属性名称。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "描述逻辑实体对概念实体的继承和细化关系。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述逻辑实体对概念实体的继承和细化关系。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "描述逻辑实体与应用组件之间的 CRUD 关系。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述逻辑实体与应用组件之间的 CRUD 关系。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "描述应用系统技术路线。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述应用系统技术路线。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "描述应用系统逻辑模型。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述应用系统逻辑模型。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "描述应用系统技术实现方案。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述应用系统技术实现方案。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "描述： 图 营销管理系统与内部系统调用关系 2 ）对南网 6+1 规划范围外的优先考虑统一集成接口，但特殊应用采用个性化集成方式。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述： 图 营销管理系统与内部系统调用关系 2 ）对南网 6+1 规划范围外的优先考虑统一集成接口，但特殊应用采用个性化集成方式。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "描述如下： 用户访问应用系统的登录页面； 输入4A的账号和密码； 调用4A的会话申请接口； 4A系统返回会话票据和从账号； 应用系统保存会话票据，并使用从账号进行登录和鉴权； 3、授权管理集成设计 4...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述如下： 用户访问应用系统的登录页面； 输入4A的账号和密码； 调用4A的会话申请接口； 4A系统返回会话票据和从账号； 应用系统保存会话票据，并使用从账号进行登录和鉴权； 3、授权管理集成设计 4A平台与应用系统授权管理交互数据模型如下图所示，应用系统在下图交互数据模型中，选择自身系统需要使用的对象及关系进行同步。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "描述，具体由应用资源确定； 日志内容中必选变量的名称、取值格式都应与上表一致，且变量顺序也依据上表的顺序自上而下。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述，具体由应用资源确定； 日志内容中必选变量的名称、取值格式都应与上表一致，且变量顺序也依据上表的顺序自上而下。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "描述 特点 1 SYSLOG接口 应用资源通过调用SYSLOG接口将日志实时发送至 4A 平台的采集服务器 。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 特点 1 SYSLOG接口 应用资源通过调用SYSLOG接口将日志实时发送至 4A 平台的采集服务器 。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "描述 非功能需求 组件清单（包括应用组件、平台组件和数据库） 组件编号 组件名称 xxx xxx表单组件 … . … . 【编写说明】： 部署单元编号：为部署单元流水号，编码格式为DU[XX] 部署单...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 非功能需求 组件清单（包括应用组件、平台组件和数据库） 组件编号 组件名称 xxx xxx表单组件 … . … . 【编写说明】： 部署单元编号：为部署单元流水号，编码格式为DU[XX] 部署单元名称：部署单元的名称 部署单元描述：为该部署单元的主要用途等做说明 非功能需求：部署单元所包括组件的非功能需求 组件编号：为组件的流水号。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "描述节点承载的部署单元，并说明设计原因。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述节点承载的部署单元，并说明设计原因。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "描述 相关部署单元 DU01 硬件（包括服务器、网络设备、存储等） 硬件名称 需求描述 服务器1 xxxx 服务器2 xxxx 负载均衡设备 xxxx …… …… 【编写说明】： 部署节点编号：为部署...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 相关部署单元 DU01 硬件（包括服务器、网络设备、存储等） 硬件名称 需求描述 服务器1 xxxx 服务器2 xxxx 负载均衡设备 xxxx …… …… 【编写说明】： 部署节点编号：为部署节点流水号，编码格式为DP[XX] 部署节点名称：部署节点的名称 部署节点描述：为该部署节点的说明 相关部署单元：部署在该部署节点上部署单元的编号 硬件名称：该部署节点需要包括的硬件。"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "包含\"风险\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 撰写风险分析和应对措施"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "包含\"背景\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "包含\"目标\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+        },
+        {
+          "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "content": "包含\"技术方案\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述技术实现方案"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "filePath": "template\\06概要设计\\02概要设计评审意见书\\XX项目概要设计评审意见书.docx",
+      "fileName": "XX项目概要设计评审意见书.docx",
+      "format": "docx",
+      "converted": true,
+      "variablesFound": [
+        "XX"
+      ],
+      "variablesReplaced": [],
+      "aiContentSuggestions": [
+        {
+          "location": "template\\06概要设计\\02概要设计评审意见书\\XX项目概要设计评审意见书.docx",
+          "content": "说明书 评审意见书 项目 介绍 项目概述 项目背景描述 项目目标 项目建设目标 项目主要 建设 内容 项目建设主要内容 应用 范围 项目成果应用范围，例如： 本项目的建设范围为南方电网 公司下属广东电...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书 评审意见书 项目 介绍 项目概述 项目背景描述 项目目标 项目建设目标 项目主要 建设 内容 项目建设主要内容 应用 范围 项目成果应用范围，例如： 本项目的建设范围为南方电网 公司下属广东电网公司、广西电网公司、云南电网公司、 贵州 电网公司 、 海南电网公司、 广州供电局、 深圳供电局、超高压公司 。"
+        },
+        {
+          "location": "template\\06概要设计\\02概要设计评审意见书\\XX项目概要设计评审意见书.docx",
+          "content": "说明书 》 评审意见 公司组织召开了 XX 项目的 概要设计 说明书评审会议。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书 》 评审意见 公司组织召开了 XX 项目的 概要设计 说明书评审会议。"
+        },
+        {
+          "location": "template\\06概要设计\\02概要设计评审意见书\\XX项目概要设计评审意见书.docx",
+          "content": "说明书 》（以下简称 概要设计 说明书），经 资料审查、质询 讨论，形成评审意见如下： 一、项目组提交的“ 概要设计 说明书”完整、规范，符合评审要求。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书 》（以下简称 概要设计 说明书），经 资料审查、质询 讨论，形成评审意见如下： 一、项目组提交的“ 概要设计 说明书”完整、规范，符合评审要求。"
+        },
+        {
+          "location": "template\\06概要设计\\02概要设计评审意见书\\XX项目概要设计评审意见书.docx",
+          "content": "描述 项目目标 项目建设目标 项目主要 建设 内容 项目建设主要内容 应用 范围 项目成果应用范围，例如： 本项目的建设范围为南方电网 公司下属广东电网公司、广西电网公司、云南电网公司、 贵州 电网公...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 项目目标 项目建设目标 项目主要 建设 内容 项目建设主要内容 应用 范围 项目成果应用范围，例如： 本项目的建设范围为南方电网 公司下属广东电网公司、广西电网公司、云南电网公司、 贵州 电网公司 、 海南电网公司、 广州供电局、 深圳供电局、超高压公司 。"
+        },
+        {
+          "location": "template\\06概要设计\\02概要设计评审意见书\\XX项目概要设计评审意见书.docx",
+          "content": "包含\"背景\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+        },
+        {
+          "location": "template\\06概要设计\\02概要设计评审意见书\\XX项目概要设计评审意见书.docx",
+          "content": "包含\"目标\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "filePath": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+      "fileName": "1、xx平台详细设计说明书(平台功能分册).docx",
+      "format": "docx",
+      "converted": true,
+      "variablesFound": [
+        "XX"
+      ],
+      "variablesReplaced": [
+        {
+          "original": "XX平台",
+          "replacement": "{projectName}平台"
+        }
+      ],
+      "aiContentSuggestions": [
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "说明》中的应用架构，用一系列图表列出本程序系统内的每个程序（包括每个模块和子程序）的名称、标识符和它们之间的层次结构关系。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明》中的应用架构，用一系列图表列出本程序系统内的每个程序（包括每个模块和子程序）的名称、标识符和它们之间的层次结构关系。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "说明书》 中的技术架构部分，说明系统（如果是分册，可以是相关子系统或子模块）技术实现层次结构。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书》 中的技术架构部分，说明系统（如果是分册，可以是相关子系统或子模块）技术实现层次结构。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "说明】应用系统采用模块化设计及部署，未来建设应用级灾备中心建设时，能根据功能模块重要程度分开部署，最大程度降低灾备端设备规模。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】应用系统采用模块化设计及部署，未来建设应用级灾备中心建设时，能根据功能模块重要程度分开部署，最大程度降低灾备端设备规模。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "描述 系统提供锁定显示样式功能，在沿布图导出 CAD 时，确定导出地理范围后，可以进一步通过锁定显示样式功能，自定义 设置导出显示比例，解决在小比例尺导出时部分设备图层未显示导致导出结果不完整的 问题...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 系统提供锁定显示样式功能，在沿布图导出 CAD 时，确定导出地理范围后，可以进一步通过锁定显示样式功能，自定义 设置导出显示比例，解决在小比例尺导出时部分设备图层未显示导致导出结果不完整的 问题。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "描述 0 1 文件浏览 单击 操作员点击 “文件 浏览 ”按钮， 可以选择导出cad文件的导出路径。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 0 1 文件浏览 单击 操作员点击 “文件 浏览 ”按钮， 可以选择导出cad文件的导出路径。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "描述 系统提供启动和关闭放大镜窗口功能，放大镜窗口启动后，放大镜 默认显示地图中心点的放大图。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 系统提供启动和关闭放大镜窗口功能，放大镜窗口启动后，放大镜 默认显示地图中心点的放大图。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "描述 01 打开/关闭放大镜窗口 单击 打开或关闭放大镜窗口。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 01 打开/关闭放大镜窗口 单击 打开或关闭放大镜窗口。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "描述 为了在 XX 图上能够显示站房的站内一次接线图，系统提供站内图预览窗口，在窗口打开的状态下，将鼠标点击到 站房类设备（变电站、配电房、箱变等）上， 窗口 显示该站房设备的站内一次图 预览 。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 为了在 XX 图上能够显示站房的站内一次接线图，系统提供站内图预览窗口，在窗口打开的状态下，将鼠标点击到 站房类设备（变电站、配电房、箱变等）上， 窗口 显示该站房设备的站内一次图 预览 。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "描述 0 1 菜单 单击 打开 站内图预览窗口 。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 0 1 菜单 单击 打开 站内图预览窗口 。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "描述 为了在 XX 图上能够显示站房的站内开关的分合状态，系统 支持通过站房端口的颜色表达站内开关的分合状态 的功能 。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 为了在 XX 图上能够显示站房的站内开关的分合状态，系统 支持通过站房端口的颜色表达站内开关的分合状态 的功能 。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "描述 0 1 开关分/ 合的电房端子 显示 显示 站房内部一次接线图保存时或站内外连接变更后，程序自动分析站房端子与站内母线之间开关的分合状态值，如果与母线之间的开关均为闭合状态，则对应的站房端子显示...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 0 1 开关分/ 合的电房端子 显示 显示 站房内部一次接线图保存时或站内外连接变更后，程序自动分析站房端子与站内母线之间开关的分合状态值，如果与母线之间的开关均为闭合状态，则对应的站房端子显示为红色，如果与母线之间存在非闭合状态的开关，则对应的站房端子显示为绿色。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "描述 电网着色功能提供 按照线路设备的维护班组（供电所） 着色、按照 设备运行状态着色 、按照设备的资产属性着色、与按照扑连通设备着色 功能 。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 电网着色功能提供 按照线路设备的维护班组（供电所） 着色、按照 设备运行状态着色 、按照设备的资产属性着色、与按照扑连通设备着色 功能 。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "描述 0 1 供电所着色 单击 系统根据设备的维护部门属性进行分类，通过不同的颜色显示不同维护班组（供电所）的设备。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 0 1 供电所着色 单击 系统根据设备的维护部门属性进行分类，通过不同的颜色显示不同维护班组（供电所）的设备。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "描述 为了将选中的设备快速定位到设备树，系统提供从 XX 图定位到设备树功能。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 为了将选中的设备快速定位到设备树，系统提供从 XX 图定位到设备树功能。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "描述 0 1 定位到设备树 单击 根据 XX 图上选择的设备，获取设备对象，系统依次遍历设备树节点设备对象，查询到与选中对象相同的节点时，展开 定位到对应的 设备树节点。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 0 1 定位到设备树 单击 根据 XX 图上选择的设备，获取设备对象，系统依次遍历设备树节点设备对象，查询到与选中对象相同的节点时，展开 定位到对应的 设备树节点。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "描述 提供突出显示环网线路功能，在沿布图上可直观地查看环网区域内的线路环网情况。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 提供突出显示环网线路功能，在沿布图上可直观地查看环网区域内的线路环网情况。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "描述 0 1 显示环网线路 单击 操作员点击菜单“显示环网线路”， 系统根据 加载电网数据范围中的线路拓扑连接情况，分析出线路的环网路径。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 0 1 显示环网线路 单击 操作员点击菜单“显示环网线路”， 系统根据 加载电网数据范围中的线路拓扑连接情况，分析出线路的环网路径。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "描述 完善电网 XX 图的图形输出功能， 根据制图打印设置将 沿布 图输出为 CAD 格式的图形文件，操作员即可利用 A utoCAD 丰富的打印接口实现制图。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 完善电网 XX 图的图形输出功能， 根据制图打印设置将 沿布 图输出为 CAD 格式的图形文件，操作员即可利用 A utoCAD 丰富的打印接口实现制图。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "描述 0 1 是否导出指北针 单击 选择是否导出指北针。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 0 1 是否导出指北针 单击 选择是否导出指北针。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "描述 支持版本升级后强制在线客户端程序退出的程序逻辑和后台配置支持。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 支持版本升级后强制在线客户端程序退出的程序逻辑和后台配置支持。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "描述 0 1 退出消息框 显示 系统检测到已发布的在线客户端强制退出消息后，弹出消息提示框， 提前告知 显示强制退出的运维消息。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 0 1 退出消息框 显示 系统检测到已发布的在线客户端强制退出消息后，弹出消息提示框， 提前告知 显示强制退出的运维消息。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "描述 支持客户端消息推送功能，允许管 理员向所有在用的客户端程序推送版本更新、后台维护计划等提示信息 。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 支持客户端消息推送功能，允许管 理员向所有在用的客户端程序推送版本更新、后台维护计划等提示信息 。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "描述 01 消息提示框 显示 系统检测到管理员发布的消息后，弹出消息提示框。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 01 消息提示框 显示 系统检测到管理员发布的消息后，弹出消息提示框。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "描述 增加人资系统组织机构及 4A 平台调整同步的功能 。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 增加人资系统组织机构及 4A 平台调整同步的功能 。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "描述 0 0 4A组织机构同步 单击 操作员点击菜单“4A组织机构同步”， 系统读取4A组织机构数据和 XX 部门数据， 初始化部门层次树 ， 弹出组织机构同步界面。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 0 0 4A组织机构同步 单击 操作员点击菜单“4A组织机构同步”， 系统读取4A组织机构数据和 XX 部门数据， 初始化部门层次树 ， 弹出组织机构同步界面。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "列出本程序系统内的每个程序（包括每个模块和子程序）的名称、标识符和它们之间的层次结构关系。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，列出本程序系统内的每个程序（包括每个模块和子程序）的名称、标识符和它们之间的层次结构关系。"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "包含\"背景\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+        },
+        {
+          "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "content": "包含\"目标\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "filePath": "template\\07详细设计\\02详细设计评审意见书\\XX项目详细设计评审意见书.docx",
+      "fileName": "XX项目详细设计评审意见书.docx",
+      "format": "docx",
+      "converted": true,
+      "variablesFound": [
+        "XX"
+      ],
+      "variablesReplaced": [],
+      "aiContentSuggestions": [
+        {
+          "location": "template\\07详细设计\\02详细设计评审意见书\\XX项目详细设计评审意见书.docx",
+          "content": "说明书 评审意见书 项目 介绍 项目概述 项目背景描述 项目目标 项目建设目标 项目主要 建设 内容 项目建设主要内容 应用 范围 项目成果应用范围，例如： 本项目的建设范围为南方电网 公司下属广东电...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书 评审意见书 项目 介绍 项目概述 项目背景描述 项目目标 项目建设目标 项目主要 建设 内容 项目建设主要内容 应用 范围 项目成果应用范围，例如： 本项目的建设范围为南方电网 公司下属广东电网公司、广西电网公司、云南电网公司、 贵州 电网公司 、 海南电网公司、 广州供电局、 深圳供电局、超高压公司 。"
+        },
+        {
+          "location": "template\\07详细设计\\02详细设计评审意见书\\XX项目详细设计评审意见书.docx",
+          "content": "说明书 》 评审意见 公司组织召开了 XX 项目的 详细 设计 说明书评审会议。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书 》 评审意见 公司组织召开了 XX 项目的 详细 设计 说明书评审会议。"
+        },
+        {
+          "location": "template\\07详细设计\\02详细设计评审意见书\\XX项目详细设计评审意见书.docx",
+          "content": "说明书 》（以下简称 详细 设计 说明书），经 资料审查、质询 讨论，形成评审意见如下： 一、项目组提交的“ 详细 设计 说明书”完整、规范，符合评审要求。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书 》（以下简称 详细 设计 说明书），经 资料审查、质询 讨论，形成评审意见如下： 一、项目组提交的“ 详细 设计 说明书”完整、规范，符合评审要求。"
+        },
+        {
+          "location": "template\\07详细设计\\02详细设计评审意见书\\XX项目详细设计评审意见书.docx",
+          "content": "说明书通过评审 ，并要求在以下方面完善 。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书通过评审 ，并要求在以下方面完善 。"
+        },
+        {
+          "location": "template\\07详细设计\\02详细设计评审意见书\\XX项目详细设计评审意见书.docx",
+          "content": "描述 项目目标 项目建设目标 项目主要 建设 内容 项目建设主要内容 应用 范围 项目成果应用范围，例如： 本项目的建设范围为南方电网 公司下属广东电网公司、广西电网公司、云南电网公司、 贵州 电网公...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 项目目标 项目建设目标 项目主要 建设 内容 项目建设主要内容 应用 范围 项目成果应用范围，例如： 本项目的建设范围为南方电网 公司下属广东电网公司、广西电网公司、云南电网公司、 贵州 电网公司 、 海南电网公司、 广州供电局、 深圳供电局、超高压公司 。"
+        },
+        {
+          "location": "template\\07详细设计\\02详细设计评审意见书\\XX项目详细设计评审意见书.docx",
+          "content": "包含\"背景\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+        },
+        {
+          "location": "template\\07详细设计\\02详细设计评审意见书\\XX项目详细设计评审意见书.docx",
+          "content": "包含\"目标\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "filePath": "template\\08开发与测试\\01开发工作方案\\工作方案模板.docx",
+      "fileName": "工作方案模板.docx",
+      "format": "docx",
+      "converted": true,
+      "variablesFound": [
+        "XXXX",
+        "XX",
+        "XXXXXX"
+      ],
+      "variablesReplaced": [
+        {
+          "original": "XX年XX月到XX年XX月",
+          "replacement": "{startYear}年{startMonth}月到{endYear}年{endMonth}月"
+        },
+        {
+          "original": "XX项目",
+          "replacement": "{projectName}项目"
+        },
+        {
+          "original": "XXX",
+          "replacement": "{personName}"
+        }
+      ],
+      "aiContentSuggestions": [
+        {
+          "location": "template\\08开发与测试\\01开发工作方案\\工作方案模板.docx",
+          "content": "描述本项目的主要工作成果 职责分工 【编写说明】明确本项目各组织和角色的分工和职责 工作内容 和进度 【编写说明】详细说明本项各阶段工作内容及进度安排 根据 XX 工作要求，该工作分为前期准备、 需求...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述本项目的主要工作成果 职责分工 【编写说明】明确本项目各组织和角色的分工和职责 工作内容 和进度 【编写说明】详细说明本项各阶段工作内容及进度安排 根据 XX 工作要求，该工作分为前期准备、 需求分析、 总体 设计、 详细 设计 、 实施策略 制定 五 个阶段 ，详细的工作安排见 “ 附录 2 : XX 工作流程图” 。"
+        },
+        {
+          "location": "template\\08开发与测试\\01开发工作方案\\工作方案模板.docx",
+          "content": "包含\"背景\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+        },
+        {
+          "location": "template\\08开发与测试\\01开发工作方案\\工作方案模板.docx",
+          "content": "包含\"目标\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "filePath": "08开发与测试\\03项目研发日志\\日志审查记录.doc",
+      "fileName": "日志审查记录.doc",
+      "format": "doc",
+      "converted": false,
+      "variablesFound": [],
+      "variablesReplaced": [],
+      "aiContentSuggestions": [],
+      "errors": [
+        ".doc 格式需要先转换为 .docx"
+      ]
+    },
+    {
+      "filePath": "template\\08开发与测试\\03项目研发日志\\日志审查记录.docx",
+      "fileName": "日志审查记录.docx",
+      "format": "docx",
+      "converted": false,
+      "variablesFound": [],
+      "variablesReplaced": [],
+      "aiContentSuggestions": [],
+      "errors": []
+    },
+    {
+      "filePath": "template\\08开发与测试\\04周报\\1、XX建设工作周报-20191021.docx",
+      "fileName": "1、XX建设工作周报-20191021.docx",
+      "format": "docx",
+      "converted": false,
+      "variablesFound": [],
+      "variablesReplaced": [],
+      "aiContentSuggestions": [
+        {
+          "location": "template\\08开发与测试\\04周报\\1、XX建设工作周报-20191021.docx",
+          "content": "说明延迟情况及处理措施 。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明延迟情况及处理措施 。"
+        },
+        {
+          "location": "template\\08开发与测试\\04周报\\1、XX建设工作周报-20191021.docx",
+          "content": "描述项目当前进展情况。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述项目当前进展情况。"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "filePath": "08开发与测试\\08测试方案\\2、测试方案.doc",
+      "fileName": "2、测试方案.doc",
+      "format": "doc",
+      "converted": false,
+      "variablesFound": [],
+      "variablesReplaced": [],
+      "aiContentSuggestions": [],
+      "errors": [
+        ".doc 格式需要先转换为 .docx"
+      ]
+    },
+    {
+      "filePath": "template\\08开发与测试\\08测试方案\\2、测试方案.docx",
+      "fileName": "2、测试方案.docx",
+      "format": "docx",
+      "converted": true,
+      "variablesFound": [
+        "XXXXXX"
+      ],
+      "variablesReplaced": [
+        {
+          "original": "XX系统",
+          "replacement": "{projectName}系统"
+        },
+        {
+          "original": "XXX",
+          "replacement": "{personName}"
+        }
+      ],
+      "aiContentSuggestions": [
+        {
+          "location": "template\\08开发与测试\\08测试方案\\2、测试方案.docx",
+          "content": "说明主要输入、信息/数据加工过程、和输出即可。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明主要输入、信息/数据加工过程、和输出即可。"
+        },
+        {
+          "location": "template\\08开发与测试\\08测试方案\\2、测试方案.docx",
+          "content": "说明书》 《软件需求规格说明书》 《系统设计说明书》（可能分概要设计和详细设计） 测试策略与范围 参照《SPI_SPE_软件集成测试、系统测试与确认测试技术流程》来确定。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书》 《软件需求规格说明书》 《系统设计说明书》（可能分概要设计和详细设计） 测试策略与范围 参照《SPI_SPE_软件集成测试、系统测试与确认测试技术流程》来确定。"
+        },
+        {
+          "location": "template\\08开发与测试\\08测试方案\\2、测试方案.docx",
+          "content": "说明，如性能、安全性等不作为测试范围的需求。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明，如性能、安全性等不作为测试范围的需求。"
+        },
+        {
+          "location": "template\\08开发与测试\\08测试方案\\2、测试方案.docx",
+          "content": "说明测试主要活动的安排和大致时间段。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明测试主要活动的安排和大致时间段。"
+        },
+        {
+          "location": "template\\08开发与测试\\08测试方案\\2、测试方案.docx",
+          "content": "说明变更的概要说明，约定还将说明更新的形式如非正式发布和紧急发布产品时的更新方法。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明变更的概要说明，约定还将说明更新的形式如非正式发布和紧急发布产品时的更新方法。"
+        },
+        {
+          "location": "template\\08开发与测试\\08测试方案\\2、测试方案.docx",
+          "content": "说明和相关接口需求规格说明。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明和相关接口需求规格说明。"
+        },
+        {
+          "location": "template\\08开发与测试\\08测试方案\\2、测试方案.docx",
+          "content": "包含\"风险\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 撰写风险分析和应对措施"
+        },
+        {
+          "location": "template\\08开发与测试\\08测试方案\\2、测试方案.docx",
+          "content": "包含\"背景\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+        },
+        {
+          "location": "template\\08开发与测试\\08测试方案\\2、测试方案.docx",
+          "content": "包含\"目标\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "filePath": "template\\08开发与测试\\10测试用例评审意见\\测试用例评审意见书模板.docx",
+      "fileName": "测试用例评审意见书模板.docx",
+      "format": "docx",
+      "converted": false,
+      "variablesFound": [],
+      "variablesReplaced": [],
+      "aiContentSuggestions": [],
+      "errors": []
+    },
+    {
+      "filePath": "08开发与测试\\11测试报告\\XX平台测试报告.doc",
+      "fileName": "XX平台测试报告.doc",
+      "format": "doc",
+      "converted": false,
+      "variablesFound": [],
+      "variablesReplaced": [],
+      "aiContentSuggestions": [],
+      "errors": [
+        ".doc 格式需要先转换为 .docx"
+      ]
+    },
+    {
+      "filePath": "template\\08开发与测试\\11测试报告\\XX平台测试报告.docx",
+      "fileName": "XX平台测试报告.docx",
+      "format": "docx",
+      "converted": true,
+      "variablesFound": [
+        "XX",
+        "xx",
+        "xxx"
+      ],
+      "variablesReplaced": [],
+      "aiContentSuggestions": [],
+      "errors": []
+    },
+    {
+      "filePath": "08开发与测试\\13系统部署手册\\系统安装部署方案模板.doc",
+      "fileName": "系统安装部署方案模板.doc",
+      "format": "doc",
+      "converted": false,
+      "variablesFound": [],
+      "variablesReplaced": [],
+      "aiContentSuggestions": [],
+      "errors": [
+        ".doc 格式需要先转换为 .docx"
+      ]
+    },
+    {
+      "filePath": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+      "fileName": "系统安装部署方案模板.docx",
+      "format": "docx",
+      "converted": true,
+      "variablesFound": [
+        "XX",
+        "XXX"
+      ],
+      "variablesReplaced": [
+        {
+          "original": "XXX",
+          "replacement": "{personName}"
+        }
+      ],
+      "aiContentSuggestions": [
+        {
+          "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+          "content": "说明系统安装部署所需的软件、文档、初始化脚本、操作手册等。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明系统安装部署所需的软件、文档、初始化脚本、操作手册等。"
+        },
+        {
+          "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+          "content": "说明IP地址的规划方案。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明IP地址的规划方案。"
+        },
+        {
+          "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+          "content": "说明光纤交换机端口的规划方案。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明光纤交换机端口的规划方案。"
+        },
+        {
+          "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+          "content": "说明 1 交换机互联 磁盘规划 磁盘阵列规划 说明磁盘阵列的规划内容，如： 磁盘阵列中配置了XX块XXXG硬盘，做成2个raid组。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 1 交换机互联 磁盘规划 磁盘阵列规划 说明磁盘阵列的规划内容，如： 磁盘阵列中配置了XX块XXXG硬盘，做成2个raid组。"
+        },
+        {
+          "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+          "content": "说明卷组和文件系统的规划方案。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明卷组和文件系统的规划方案。"
+        },
+        {
+          "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+          "content": "说明 1 lv_appfile 50G appfilevg 文件系统 上传附件目录 2 lvsas_system 2G data1vg 裸设备 系统表空间 系统应用环境 用表格形式说明系统应用环境。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 1 lv_appfile 50G appfilevg 文件系统 上传附件目录 2 lvsas_system 2G data1vg 裸设备 系统表空间 系统应用环境 用表格形式说明系统应用环境。"
+        },
+        {
+          "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+          "content": "说明，如： 机房环境要求 机房内部机器布置应具有足够的服务空间并有可扩充性。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明，如： 机房环境要求 机房内部机器布置应具有足够的服务空间并有可扩充性。"
+        },
+        {
+          "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+          "content": "说明，如： 地面及地下需要清洁 UPS电气性能稳定 各机电源以及机房电工到位 空调已正常运转 消防设备到位 地板通气孔到位 RS/6000布线所需的三块打孔地板到位，(孔的位置在地板边沿，面积约200...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明，如： 地面及地下需要清洁 UPS电气性能稳定 各机电源以及机房电工到位 空调已正常运转 消防设备到位 地板通气孔到位 RS/6000布线所需的三块打孔地板到位，(孔的位置在地板边沿，面积约200CM2) 安装步骤 详细说明安装所需各步骤。"
+        },
+        {
+          "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+          "content": "说明数据库安装的要求和步骤，包括： 检查操作系统是否符合要求； 检查安装文件是否完整； 详细说明安装步骤（是否群集安装等）； …… 数据库初始化 说明数据库初始化的详细步骤及检查方法。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明数据库安装的要求和步骤，包括： 检查操作系统是否符合要求； 检查安装文件是否完整； 详细说明安装步骤（是否群集安装等）； …… 数据库初始化 说明数据库初始化的详细步骤及检查方法。"
+        },
+        {
+          "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+          "content": "说明操作系统安装的要求和详细步骤，包括相关第三方软件的安装，如上传下载、安全软件等。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明操作系统安装的要求和详细步骤，包括相关第三方软件的安装，如上传下载、安全软件等。"
+        },
+        {
+          "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+          "content": "说明中间件安装的要求和详细步骤，如群集安装，服务节点安装等。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明中间件安装的要求和详细步骤，如群集安装，服务节点安装等。"
+        },
+        {
+          "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+          "content": "说明应用系统安装的要求和详细步骤，包括安装地址，备份文件地址等。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明应用系统安装的要求和详细步骤，包括安装地址，备份文件地址等。"
+        },
+        {
+          "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+          "content": "说明常见问题的处理办法，如安装失败、系统无法访问等。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明常见问题的处理办法，如安装失败、系统无法访问等。"
+        },
+        {
+          "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+          "content": "描述编写这个文档的目的。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述编写这个文档的目的。"
+        },
+        {
+          "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+          "content": "描述系统安装的结构、总体计划和资源配置等。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述系统安装的结构、总体计划和资源配置等。"
+        },
+        {
+          "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+          "content": "列出安装单位机房现状拓扑图及安装后的拓扑图。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，列出安装单位机房现状拓扑图及安装后的拓扑图。"
+        },
+        {
+          "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+          "content": "包含\"目标\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "filePath": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+      "fileName": "系统维护手册模版.docx",
+      "format": "docx",
+      "converted": false,
+      "variablesFound": [],
+      "variablesReplaced": [],
+      "aiContentSuggestions": [
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "说明项目的提出者、开发者、用户和使用场所。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明项目的提出者、开发者、用户和使用场所。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "说明 系统用途 【 说明系统具备的功能，输入和输出。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 系统用途 【 说明系统具备的功能，输入和输出。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "说明系统安全保密方面的考虑 和用户权限的设置 。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明系统安全保密方面的考虑 和用户权限的设置 。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "说明 【 说明系统的总体功能，对系统、子系统和作业做出综合性的介绍，并用图表的方式给出系统主要部分的内部关系。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 【 说明系统的总体功能，对系统、子系统和作业做出综合性的介绍，并用图表的方式给出系统主要部分的内部关系。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "说明 【 说明系统中每一程序、分程序的细节和特性。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 【 说明系统中每一程序、分程序的细节和特性。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "说明 ● 功能：说明程序的功能。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 ● 功能：说明程序的功能。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "说明程序的输入、媒体、运行数据记录、运行开始时使用的输入数据的类型和存放单元、与程序初始化有关的入口要求。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明程序的输入、媒体、运行数据记录、运行开始时使用的输入数据的类型和存放单元、与程序初始化有关的入口要求。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "说明程序的运行的逻辑流程；程序主要转移条件；对程序的约束条件；程序结束时的出口要求；与下一个程序的通 信与联结（运行、控制）；由该程序产生并茶馆处理程序段使用的输出数据类型和存放单元；程序运行存储量、...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明程序的运行的逻辑流程；程序主要转移条件；对程序的约束条件；程序结束时的出口要求；与下一个程序的通 信与联结（运行、控制）；由该程序产生并茶馆处理程序段使用的输出数据类型和存放单元；程序运行存储量、类型及存储位置等。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "说明程序内部的各种表、项的细节和特性。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明程序内部的各种表、项的细节和特性。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "说明至少包括：表的标识符；使用目的；使用此表的其他程序；逻辑划分，如块或部，不包括表项；表的基本结构；设计安排，包括表的控制信息。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明至少包括：表的标识符；使用目的；使用此表的其他程序；逻辑划分，如块或部，不包括表项；表的基本结构；设计安排，包括表的控制信息。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "说明在用户操作手册中没有提到的运行性质。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明在用户操作手册中没有提到的运行性质。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "说明 【 与程序 1 的说明相同。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 【 与程序 1 的说明相同。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "说明系统的设备配置及其特性。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明系统的设备配置及其特性。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "说明每个数据库的性质和内容，包括安全考虑。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明每个数据库的性质和内容，包括安全考虑。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "说明 ● 说明该数据库的结构，包括其中的记录和项。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 ● 说明该数据库的结构，包括其中的记录和项。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "说明记录的组成，包括首部或控制段、记录体。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明记录的组成，包括首部或控制段、记录体。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "说明每个记录结构的字段，包括：标记或标号、字段的字符长度和位数、该字段的允许值范围。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明每个记录结构的字段，包括：标记或标号、字段的字符长度和位数、该字段的允许值范围。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "说明为记录追加字段的规定。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明为记录追加字段的规定。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "说明一个程序段修改后，对其进行验证的要求和过程（包括测试程序和数据）及程序周期性验证的过程。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明一个程序段修改后，对其进行验证的要求和过程（包括测试程序和数据）及程序周期性验证的过程。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "说明文档其他地方没有提到的专门维护过程。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明文档其他地方没有提到的专门维护过程。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "说明，内容包括：维护作业的输入输出要求；输入的详细过程及在硬设备上建立、运行并完成维护作业的操作步骤。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明，内容包括：维护作业的输入输出要求；输入的详细过程及在硬设备上建立、运行并完成维护作业的操作步骤。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "阐明编写手册的目的并指明读者对象。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，阐明编写手册的目的并指明读者对象。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "列出报告中所用到的专门术语的定义和缩写词的原意。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，列出报告中所用到的专门术语的定义和缩写词的原意。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "列出有关资料的作者、标题、编号、发表日期、出版单位或资料来源，及保密级别，可包括：用户操作手册；与本项目有关的其他文档。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，列出有关资料的作者、标题、编号、发表日期、出版单位或资料来源，及保密级别，可包括：用户操作手册；与本项目有关的其他文档。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "列出系统使用的支持软件，包括它们的名称和版本号。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，列出系统使用的支持软件，包括它们的名称和版本号。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "列出该软件系统设计中所使用全部规则和约定，包括：程序、分程序、记录、字段和存储区的标识或标号助记符的使用规则；图表的处理标准、卡片的连接顺序、语句和记号中使用的缩写、出现在图表中的符号名；使用的软件技...",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，列出该软件系统设计中所使用全部规则和约定，包括：程序、分程序、记录、字段和存储区的标识或标号助记符的使用规则；图表的处理标准、卡片的连接顺序、语句和记号中使用的缩写、出现在图表中的符号名；使用的软件技术标准；标准化的数据元素及其特征。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "列出出错状态及其纠正方法。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，列出出错状态及其纠正方法。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "列出维护软件系统使用的后备技术和专用程序（如文件恢复程序、淘汰过时文件的程序等）的目录，并加以说明，内容包括：维护作业的输入输出要求；输入的详细过程及在硬设备上建立、运行并完成维护作业的操作步骤。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，列出维护软件系统使用的后备技术和专用程序（如文件恢复程序、淘汰过时文件的程序等）的目录，并加以说明，内容包括：维护作业的输入输出要求；输入的详细过程及在硬设备上建立、运行并完成维护作业的操作步骤。"
+        },
+        {
+          "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "content": "包含\"背景\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "filePath": "09实施\\22培训方案\\系统培训方案模板.doc",
+      "fileName": "系统培训方案模板.doc",
+      "format": "doc",
+      "converted": false,
+      "variablesFound": [],
+      "variablesReplaced": [],
+      "aiContentSuggestions": [],
+      "errors": [
+        ".doc 格式需要先转换为 .docx"
+      ]
+    },
+    {
+      "filePath": "template\\09实施\\22培训方案\\系统培训方案模板.docx",
+      "fileName": "系统培训方案模板.docx",
+      "format": "docx",
+      "converted": true,
+      "variablesFound": [
+        "XX",
+        "XXX"
+      ],
+      "variablesReplaced": [
+        {
+          "original": "XXX项目",
+          "replacement": "{projectName}项目"
+        },
+        {
+          "original": "XXX",
+          "replacement": "{personName}"
+        }
+      ],
+      "aiContentSuggestions": [],
+      "errors": []
+    },
+    {
+      "filePath": "09实施\\23培训记录\\2.培训签到表.doc",
+      "fileName": "2.培训签到表.doc",
+      "format": "doc",
+      "converted": false,
+      "variablesFound": [],
+      "variablesReplaced": [],
+      "aiContentSuggestions": [],
+      "errors": [
+        ".doc 格式需要先转换为 .docx"
+      ]
+    },
+    {
+      "filePath": "template\\09实施\\23培训记录\\2.培训签到表.docx",
+      "fileName": "2.培训签到表.docx",
+      "format": "docx",
+      "converted": false,
+      "variablesFound": [],
+      "variablesReplaced": [],
+      "aiContentSuggestions": [],
+      "errors": []
+    },
+    {
+      "filePath": "template\\10验收\\03项目中期报告\\项目工作报告_基于4D-BIM技术的变电修理技改项目管理系统研究与应用.docx",
+      "fileName": "项目工作报告_基于4D-BIM技术的变电修理技改项目管理系统研究与应用.docx",
+      "format": "docx",
+      "converted": true,
+      "variablesFound": [],
+      "variablesReplaced": [
+        {
+          "original": "V1.0",
+          "replacement": "{version}"
+        }
+      ],
+      "aiContentSuggestions": [
+        {
+          "location": "template\\10验收\\03项目中期报告\\项目工作报告_基于4D-BIM技术的变电修理技改项目管理系统研究与应用.docx",
+          "content": "包含\"风险\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 撰写风险分析和应对措施"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "filePath": "template\\10验收\\08验收意见（正式盖章版）\\2、项目竣工验收证书-xx项目.docx",
+      "fileName": "2、项目竣工验收证书-xx项目.docx",
+      "format": "docx",
+      "converted": true,
+      "variablesFound": [
+        "xx",
+        "xxx"
+      ],
+      "variablesReplaced": [],
+      "aiContentSuggestions": [],
+      "errors": []
+    },
+    {
+      "filePath": "template\\11试运行\\02试运行报告\\试运行报告.docx",
+      "fileName": "试运行报告.docx",
+      "format": "docx",
+      "converted": true,
+      "variablesFound": [
+        "XX",
+        "xx",
+        "xxx",
+        "xxxx",
+        "Xx"
+      ],
+      "variablesReplaced": [
+        {
+          "original": "XX平台",
+          "replacement": "{projectName}平台"
+        },
+        {
+          "original": "xx平台",
+          "replacement": "{projectName}平台"
+        }
+      ],
+      "aiContentSuggestions": [
+        {
+          "location": "template\\11试运行\\02试运行报告\\试运行报告.docx",
+          "content": "描述 故障登记时间 故障是否重现 故障是否已解决 备注 1 功能 缺陷 Xx 功能无法正常使用，点击报错 。",
+          "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 故障登记时间 故障是否重现 故障是否已解决 备注 1 功能 缺陷 Xx 功能无法正常使用，点击报错 。"
+        },
+        {
+          "location": "template\\11试运行\\02试运行报告\\试运行报告.docx",
+          "content": "包含\"可行性\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 撰写可行性分析报告"
+        },
+        {
+          "location": "template\\11试运行\\02试运行报告\\试运行报告.docx",
+          "content": "包含\"目标\"相关内容",
+          "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "filePath": "template\\12项目收尾\\01项目工作总结报告\\xx项目工作总结.docx",
+      "fileName": "xx项目工作总结.docx",
+      "format": "docx",
+      "converted": true,
+      "variablesFound": [
+        "xx"
+      ],
+      "variablesReplaced": [],
+      "aiContentSuggestions": [],
+      "errors": []
+    }
+  ],
+  "report": {
+    "totalFiles": 37,
+    "docxFiles": 29,
+    "docFiles": 8,
+    "convertedFiles": 22,
+    "allVariables": [
+      "{companyName}",
+      "{projectName}平台",
+      "{personName}",
+      "{startYear}年{startMonth}月到{endYear}年{endMonth}月",
+      "{projectName}项目",
+      "{projectName}系统",
+      "{version}"
+    ],
+    "allAiSuggestions": [
+      {
+        "location": "template\\01立项\\01项目建议书\\xx项目建议书.docx",
+        "content": "包含\"总结\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 撰写项目总结报告"
+      },
+      {
+        "location": "template\\01立项\\01项目建议书\\xx项目建议书.docx",
+        "content": "包含\"背景\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+      },
+      {
+        "location": "template\\01立项\\02项目可行性分析报告\\xxx项目可行性研究报告V0.1.docx",
+        "content": "说明 【说明本次投资的硬件、软件的计算依据说明】 1、整体单价取费原则：根据公司信息化项目预算编制与计算方法，开发费1 5 00元/人天，实施推广 12 00元/人天（含差旅费）。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 【说明本次投资的硬件、软件的计算依据说明】 1、整体单价取费原则：根据公司信息化项目预算编制与计算方法，开发费1 5 00元/人天，实施推广 12 00元/人天（含差旅费）。"
+      },
+      {
+        "location": "template\\01立项\\02项目可行性分析报告\\xxx项目可行性研究报告V0.1.docx",
+        "content": "描述应用范围功能框架 。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述应用范围功能框架 。"
+      },
+      {
+        "location": "template\\01立项\\02项目可行性分析报告\\xxx项目可行性研究报告V0.1.docx",
+        "content": "描述 内部逻辑文 件 外部逻辑文 件 总投资 项目费用汇总表 表一甲 单位：万元 序号 建设单位 项目名称 投资估算(按费用性质) 投资估算(按费用类别) 资本性 费用性 合计 建设费 设备购置费 维...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 内部逻辑文 件 外部逻辑文 件 总投资 项目费用汇总表 表一甲 单位：万元 序号 建设单位 项目名称 投资估算(按费用性质) 投资估算(按费用类别) 资本性 费用性 合计 建设费 设备购置费 维护费 其他费用 合计 1 合计 具体各单位项目投资估算情况详见附件《 2019 年 x x 公司 xx 项目 可行性研究估算书》。"
+      },
+      {
+        "location": "template\\01立项\\02项目可行性分析报告\\xxx项目可行性研究报告V0.1.docx",
+        "content": "包含\"可行性\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 撰写可行性分析报告"
+      },
+      {
+        "location": "template\\01立项\\02项目可行性分析报告\\xxx项目可行性研究报告V0.1.docx",
+        "content": "包含\"风险\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 撰写风险分析和应对措施"
+      },
+      {
+        "location": "template\\01立项\\02项目可行性分析报告\\xxx项目可行性研究报告V0.1.docx",
+        "content": "包含\"背景\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+      },
+      {
+        "location": "template\\01立项\\02项目可行性分析报告\\xxx项目可行性研究报告V0.1.docx",
+        "content": "包含\"目标\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+      },
+      {
+        "location": "template\\01立项\\02项目可行性分析报告\\xxx项目可行性研究报告V0.1.docx",
+        "content": "包含\"技术方案\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述技术实现方案"
+      },
+      {
+        "location": "template\\01立项\\02项目可行性分析报告\\xxx项目可行性研究报告V0.1.docx",
+        "content": "包含\"实施计划\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 制定项目实施计划"
+      },
+      {
+        "location": "template\\02项目管理\\01计划任务书\\【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+        "content": "说明书要求 集成子系统的功能在统一平台的呈现。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书要求 集成子系统的功能在统一平台的呈现。"
+      },
+      {
+        "location": "template\\02项目管理\\01计划任务书\\【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+        "content": "说明书审查 项目建议书、 可研 功能需求说明书 1.2 初设 初步设计 初步设计 1.3 招标 招标方案 招标 招标方案 签订合同 2 项目启动 组织到位 2019年5月-2019年6月 2.1 成立...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书审查 项目建议书、 可研 功能需求说明书 1.2 初设 初步设计 初步设计 1.3 招标 招标方案 招标 招标方案 签订合同 2 项目启动 组织到位 2019年5月-2019年6月 2.1 成立项目部 成立项目 工作 组 。"
+      },
+      {
+        "location": "template\\02项目管理\\01计划任务书\\【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+        "content": "说明、总体功能说明、各子系统功能说明、站控层高级模块功能设计等。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明、总体功能说明、各子系统功能说明、站控层高级模块功能设计等。"
+      },
+      {
+        "location": "template\\02项目管理\\01计划任务书\\【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+        "content": "说明、施工图、设备及主要材料清册。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明、施工图、设备及主要材料清册。"
+      },
+      {
+        "location": "template\\02项目管理\\01计划任务书\\【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+        "content": "说明书 测试平台 2019 年 7 月 3.3 巡视监测子系统的搭建 已有巡视监测子系统的功能分析。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书 测试平台 2019 年 7 月 3.3 巡视监测子系统的搭建 已有巡视监测子系统的功能分析。"
+      },
+      {
+        "location": "template\\02项目管理\\01计划任务书\\【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+        "content": "包含\"风险\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 撰写风险分析和应对措施"
+      },
+      {
+        "location": "template\\02项目管理\\01计划任务书\\【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+        "content": "包含\"背景\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+      },
+      {
+        "location": "template\\02项目管理\\01计划任务书\\【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+        "content": "包含\"目标\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+      },
+      {
+        "location": "template\\02项目管理\\01计划任务书\\【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+        "content": "包含\"技术方案\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述技术实现方案"
+      },
+      {
+        "location": "template\\03需求分析\\01需求规格说明书\\2、XX平台需求规格说明书.docx",
+        "content": "说明书》分别给予说明，而平台的非功能性需求将由本文档从平台性能、可靠性、可维护性、易用性、可扩展性、安全性等方面进行描述。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书》分别给予说明，而平台的非功能性需求将由本文档从平台性能、可靠性、可维护性、易用性、可扩展性、安全性等方面进行描述。"
+      },
+      {
+        "location": "template\\03需求分析\\01需求规格说明书\\2、XX平台需求规格说明书.docx",
+        "content": "列出线路上的各类设备数目和清单，支持设备图上定位 。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，列出线路上的各类设备数目和清单，支持设备图上定位 。"
+      },
+      {
+        "location": "template\\03需求分析\\01需求规格说明书\\2、XX平台需求规格说明书.docx",
+        "content": "列出系统安全防护要求，编制完成《系统安全需求分析报告》。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，列出系统安全防护要求，编制完成《系统安全需求分析报告》。"
+      },
+      {
+        "location": "template\\03需求分析\\01需求规格说明书\\2、XX平台需求规格说明书.docx",
+        "content": "包含\"背景\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+      },
+      {
+        "location": "template\\03需求分析\\01需求规格说明书\\2、XX平台需求规格说明书.docx",
+        "content": "包含\"目标\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+      },
+      {
+        "location": "template\\03需求分析\\03需求评审意见书\\2、XX项目需求评审意见.docx",
+        "content": "说明书》（一下简称“需求规格说明书”）。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书》（一下简称“需求规格说明书”）。"
+      },
+      {
+        "location": "template\\03需求分析\\03需求评审意见书\\2、XX项目需求评审意见.docx",
+        "content": "说明书完整、规范，符合评审要求。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书完整、规范，符合评审要求。"
+      },
+      {
+        "location": "template\\03需求分析\\03需求评审意见书\\2、XX项目需求评审意见.docx",
+        "content": "说明书通过评审，并建议项目组根据会议中提出的意见（另附）进一步完善 。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书通过评审，并建议项目组根据会议中提出的意见（另附）进一步完善 。"
+      },
+      {
+        "location": "template\\03需求分析\\03需求评审意见书\\2、XX项目需求评审意见.docx",
+        "content": "包含\"目标\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+      },
+      {
+        "location": "template\\03需求分析\\03需求评审意见书\\2、XX项目需求评审意见.docx",
+        "content": "包含\"实施计划\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 制定项目实施计划"
+      },
+      {
+        "location": "template\\04研发制度管理\\02工作规范\\前端项目开发技术规范_V1.0.docx",
+        "content": "描述包含 : ** 日期 ** 姓名 ** 审阅 ** 功能 ** 备注 函数方法注释： 函数用途 参数描述 返回值描述 备注 关键算法注释： 用途描述 关键点解释 注意事项 修改方法 文件夹规范 为...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述包含 : ** 日期 ** 姓名 ** 审阅 ** 功能 ** 备注 函数方法注释： 函数用途 参数描述 返回值描述 备注 关键算法注释： 用途描述 关键点解释 注意事项 修改方法 文件夹规范 为规范化文件夹不允许含有中文名。"
+      },
+      {
+        "location": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+        "content": "说明性 ， 成员变量不需要添加 “_” 前缀 ， 成员变量添加 “_” 前缀格式化代码 1&gt; 指针 定义一个对象时，指针 \"*\" 靠近变量 例子 : NSString * userName ; ...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明性 ， 成员变量不需要添加 “_” 前缀 ， 成员变量添加 “_” 前缀格式化代码 1&gt; 指针 定义一个对象时，指针 \"*\" 靠近变量 例子 : NSString * userName ; 2&gt; 方法的声明和定义 在 - 、 + 和 返回值 之间留一个空格，方法名和第一个参数之间不留空格 可变数组或字典变量名 宏命名： 全部大写，单词间用 _ 分隔。"
+      },
+      {
+        "location": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+        "content": "说明“为什么这么做”。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明“为什么这么做”。"
+      },
+      {
+        "location": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+        "content": "说明 : HashMap 使用 HashMap(int initialCapacity ) 初始化 , 正例 : initialCapacity = ( 需要存储的元素个数 / 负载因子 ) + 1 ...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 : HashMap 使用 HashMap(int initialCapacity ) 初始化 , 正例 : initialCapacity = ( 需要存储的元素个数 / 负载因子 ) + 1 。"
+      },
+      {
+        "location": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+        "content": "说明什么情况下会返回 null 值。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明什么情况下会返回 null 值。"
+      },
+      {
+        "location": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+        "content": "说明什么情况下返回为空 其他 在使用正则表达式时要学会利用预编译，加快正则匹配速度，定义正则的时候不要在方法体内进行定义。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明什么情况下返回为空 其他 在使用正则表达式时要学会利用预编译，加快正则匹配速度，定义正则的时候不要在方法体内进行定义。"
+      },
+      {
+        "location": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+        "content": "说明注释掉代码的理由。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明注释掉代码的理由。"
+      },
+      {
+        "location": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+        "content": "描述的，我们完全可以用程代码本身来表达它到底在干什么，而不需要注释的辅助。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述的，我们完全可以用程代码本身来表达它到底在干什么，而不需要注释的辅助。"
+      },
+      {
+        "location": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+        "content": "描述的是“什么时候不做什么”，所以为了读懂二者所在的代码，我们需要在头脑里将他们取反。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述的是“什么时候不做什么”，所以为了读懂二者所在的代码，我们需要在头脑里将他们取反。"
+      },
+      {
+        "location": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+        "content": "列出所有分支（穷举所有的情况），而且每个分支都必须给出明确的结果。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，列出所有分支（穷举所有的情况），而且每个分支都必须给出明确的结果。"
+      },
+      {
+        "location": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+        "content": "包含\"风险\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 撰写风险分析和应对措施"
+      },
+      {
+        "location": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+        "content": "包含\"目标\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+        "content": "说明书中的功能项和功能子项进行优化重组，形成一级应用功能。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书中的功能项和功能子项进行优化重组，形成一级应用功能。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+        "content": "说明了系统的安全的重要性，同时系统安全也一包括多学科的系统安全问题。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明了系统的安全的重要性，同时系统安全也一包括多学科的系统安全问题。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+        "content": "说明 电网 各部门 、直属单位、县局 机密性赋值 机密 完整性赋值 100% 可用性赋值 100% 数据流转分析 数据流转过程 简要说明 数据来源： 电网 所辖范围的电力设备数据； 使用者： 电网 各...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 电网 各部门 、直属单位、县局 机密性赋值 机密 完整性赋值 100% 可用性赋值 100% 数据流转分析 数据流转过程 简要说明 数据来源： 电网 所辖范围的电力设备数据； 使用者： 电网 各部门 、直属单位、县局 运行单位人员； 数据途径环节： web 中间件程序读取、处理、写入数据库。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+        "content": "描述 XX 平台 的应用功能范围及相互间的关系。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 XX 平台 的应用功能范围及相互间的关系。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+        "content": "描述 E-ZYGL01 -01 锁定显示样式 对设备图层的显示样式进行锁定设置与解锁功能。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 E-ZYGL01 -01 锁定显示样式 对设备图层的显示样式进行锁定设置与解锁功能。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+        "content": "描述 E- WG02 -01 海量数据接入 包括准实时 数据加载、准实时数据 Web XX 显示、气象数据接入功能 。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 E- WG02 -01 海量数据接入 包括准实时 数据加载、准实时数据 Web XX 显示、气象数据接入功能 。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+        "content": "描述 E-WG03-0 1 行政 区划控制 包括 启动 /关闭 行政区划、初始化行政区划图、区域着色、区域定位、区域上叠加文字。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 E-WG03-0 1 行政 区划控制 包括 启动 /关闭 行政区划、初始化行政区划图、区域着色、区域定位、区域上叠加文字。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+        "content": "描述 E-SC01-0 1 准实时数据接入 电网空间信息服务与 海量实时数据平台 等进行交互，接入自动化和气象环境等监测数据，提供基于实时信息的拓扑分析和可视化展现服务。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 E-SC01-0 1 准实时数据接入 电网空间信息服务与 海量实时数据平台 等进行交互，接入自动化和气象环境等监测数据，提供基于实时信息的拓扑分析和可视化展现服务。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+        "content": "描述信息发布，信息集成平台服务自发现和注册，服务运行信息发布，服务调度和群集，日志和性能监视等组件。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述信息发布，信息集成平台服务自发现和注册，服务运行信息发布，服务调度和群集，日志和性能监视等组件。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+        "content": "描述信息查询、图形输出和矢量输出等功能。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述信息查询、图形输出和矢量输出等功能。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+        "content": "描述 系统主机主要指为系统提供服务器的服务器，包括应用服务器、数据服务器等。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 系统主机主要指为系统提供服务器的服务器，包括应用服务器、数据服务器等。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+        "content": "描述 网络设备需要进行安全配置，禁止不需要的服务和端口。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 网络设备需要进行安全配置，禁止不需要的服务和端口。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+        "content": "描述 描述终端具体类型：包括信息内外网办公计算机终端、移动作业和移动办公终端和信息采集类终端。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 描述终端具体类型：包括信息内外网办公计算机终端、移动作业和移动办公终端和信息采集类终端。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+        "content": "描述 XX 平台 数据库，用于存储电网资源数据。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 XX 平台 数据库，用于存储电网资源数据。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+        "content": "包含\"背景\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+        "content": "包含\"目标\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+        "content": "包含\"技术方案\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述技术实现方案"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明]包括应用架构、集成架构功能和集成场景内容。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明]包括应用架构、集成架构功能和集成场景内容。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明]包括技术架构、物理架构、安全架构、集成架构技术平台部分。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明]包括技术架构、物理架构、安全架构、集成架构技术平台部分。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】在总体架构应用域视图中，标示出本项目对应的应用域 本项目所属的应用域如下： false 【编写说明】在总体架构应用视图中，标示出本项目对应的应用 false 应用模块 【编写说明】在总体架构应用...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】在总体架构应用域视图中，标示出本项目对应的应用域 本项目所属的应用域如下： false 【编写说明】在总体架构应用视图中，标示出本项目对应的应用 false 应用模块 【编写说明】在总体架构应用功能视图中，明确要实现应用模块。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】对需求规格说明书中的功能项和功能子项进行优化重组，形成一级应用功能。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】对需求规格说明书中的功能项和功能子项进行优化重组，形成一级应用功能。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】 二级应用模块编码：与总体架构二级应用模块编号设计一致。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】 二级应用模块编码：与总体架构二级应用模块编号设计一致。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】对每个一级应用模块进行应用功能设计至最细粒度，并分析功能之间的依赖关系。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】对每个一级应用模块进行应用功能设计至最细粒度，并分析功能之间的依赖关系。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】如果一级应用模块下应用功能较多，可按每个二级应用模块对应一节，进行应用功能设计。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】如果一级应用模块下应用功能较多，可按每个二级应用模块对应一节，进行应用功能设计。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】： 编号：为应用模块或应用功能的编码，编码格式为AM[XXXX.XXXX.XXXX.XXXX] 模块/功能名称：为应用模块或应用功能的名称。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】： 编号：为应用模块或应用功能的编码，编码格式为AM[XXXX.XXXX.XXXX.XXXX] 模块/功能名称：为应用模块或应用功能的名称。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】系统的功能由一系列的组件协作实现。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】系统的功能由一系列的组件协作实现。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】如果每层放置的组件很多，可以将每一层作为一个图进行绘制。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】如果每层放置的组件很多，可以将每一层作为一个图进行绘制。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】列出应用组件清单。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】列出应用组件清单。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】： 组件编号：为应用组件的流水号，编码格式为A C[XXXX.XXXX] 组件名称：为应用组件的名称。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】： 组件编号：为应用组件的流水号，编码格式为A C[XXXX.XXXX] 组件名称：为应用组件的名称。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】列出应用服务清单。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】列出应用服务清单。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】在总体架构应用交互视图中，标示本系统要实现的交互关系。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】在总体架构应用交互视图中，标示本系统要实现的交互关系。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明如下： 编号 交互名称 源应用 源功能 目标应用 目标功能 源到目标信息 目标返回信息 交互描述 AI0001 客户信息交互 07-安全生产管理 系统公共管理 12-营销管理 业扩报装 客户基本信...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明如下： 编号 交互名称 源应用 源功能 目标应用 目标功能 源到目标信息 目标返回信息 交互描述 AI0001 客户信息交互 07-安全生产管理 系统公共管理 12-营销管理 业扩报装 客户基本信息 在营配集成中，营销管理应用将客户信息传递给安全生产应用中做停电计划优化。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】需填写《应用集成服务需求说明书》，模版详见《公司管理信息化推进技术管控要求》。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】需填写《应用集成服务需求说明书》，模版详见《公司管理信息化推进技术管控要求》。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】采用图形化方式描述系统间集成关系。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】采用图形化方式描述系统间集成关系。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】按下列表格定义对总体集成关系进行说明。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】按下列表格定义对总体集成关系进行说明。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】： 系统集成编号：为系统集成的流水号，编码格式为 SI[XXXX] 源系统：源系统名称。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】： 系统集成编号：为系统集成的流水号，编码格式为 SI[XXXX] 源系统：源系统名称。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】根据需求规格设计应用角色，补充系统管理类角色，并根据数据约束对角色进行细分，形成角色清单。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】根据需求规格设计应用角色，补充系统管理类角色，并根据数据约束对角色进行细分，形成角色清单。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明：对角色职能的描述。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明：对角色职能的描述。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】建立角色与应用功能的分配关系，形成角色分配视图。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】建立角色与应用功能的分配关系，形成角色分配视图。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】： 横向上为应用功能，应用功能到权限分配的最小粒度；纵向上为应用角色；应用角色与应用功能有分配关系，在交叉点用“√”表示。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】： 横向上为应用功能，应用功能到权限分配的最小粒度；纵向上为应用角色；应用角色与应用功能有分配关系，在交叉点用“√”表示。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】对应用组件在总部和分子公司的部署和集成的分布关系进行设计。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】对应用组件在总部和分子公司的部署和集成的分布关系进行设计。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】在总体架构数据域视图中，标示出该项目所涉及到的数据域。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】在总体架构数据域视图中，标示出该项目所涉及到的数据域。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】在总体架构数据主题视图中，分别以图示方式描述数据主题以及主题间的关系。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】在总体架构数据主题视图中，分别以图示方式描述数据主题以及主题间的关系。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】在总体架构概念数据实体视图中，标示出相关的概念实体。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】在总体架构概念数据实体视图中，标示出相关的概念实体。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】每个数据主题对应一节。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】每个数据主题对应一节。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】依据需求规格说明书，将逻辑模型与需求规格说明书中的业务对象进行映射，同时将逻辑模型与《数据模型规范》中的数据模型映射，并将引用标准中章节和主题库E-R图进行描述。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】依据需求规格说明书，将逻辑模型与需求规格说明书中的业务对象进行映射，同时将逻辑模型与《数据模型规范》中的数据模型映射，并将引用标准中章节和主题库E-R图进行描述。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明书的业务对象进行映射，包括后面的数据项； 对应的基本表名称，将逻辑模型与《数据模型规范》、《基本数据集》在的基本表名称进行映射，包括后面的属性标识和属性名称。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书的业务对象进行映射，包括后面的数据项； 对应的基本表名称，将逻辑模型与《数据模型规范》、《基本数据集》在的基本表名称进行映射，包括后面的属性标识和属性名称。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明 字段名 字段代码 注释 数据类型 主键 外键 非空 是否主数据项 引用编码标准 数据质量要求 对应的业务对象 数据项 对应的基本表名称 属性标识 属性名称 FW_YKGZDJBXX 业扩工作单基...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 字段名 字段代码 注释 数据类型 主键 外键 非空 是否主数据项 引用编码标准 数据质量要求 对应的业务对象 数据项 对应的基本表名称 属性标识 属性名称 FW_YKGZDJBXX 业扩工作单基本信息 以业扩报装流程作为核心，围绕核心的实体。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】依据总体架构数据分布视图，识别出相关概念实体的分布情况。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】依据总体架构数据分布视图，识别出相关概念实体的分布情况。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】识别应用和逻辑模型分布视图。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】识别应用和逻辑模型分布视图。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】描述逻辑实体对概念实体的继承和细化关系。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】描述逻辑实体对概念实体的继承和细化关系。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】每个数据主题对应一节，展示系统逻辑数据模型。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】每个数据主题对应一节，展示系统逻辑数据模型。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】描述逻辑实体与应用组件之间的 CRUD 关系。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】描述逻辑实体与应用组件之间的 CRUD 关系。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】描述应用系统技术路线。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】描述应用系统技术路线。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】描述应用系统逻辑模型。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】描述应用系统逻辑模型。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】描述应用系统技术实现方案。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】描述应用系统技术实现方案。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】此处总体分析应用系统对平台组件的接入需求。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】此处总体分析应用系统对平台组件的接入需求。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】以下对接入需求进行详细设计和描述。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】以下对接入需求进行详细设计和描述。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】此处应用系统按照4A平台技术规范-应用系统集成接口规范相关要求，从下列4A平台集成方式中选择符合应用系统自身特点的集成方式进行集成接口设计。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】此处应用系统按照4A平台技术规范-应用系统集成接口规范相关要求，从下列4A平台集成方式中选择符合应用系统自身特点的集成方式进行集成接口设计。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明该用户是没有经过认证的，Agent会重定向用户请求到SSO服务端（Step 2）。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明该用户是没有经过认证的，Agent会重定向用户请求到SSO服务端（Step 2）。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】此处应用系统按照门户技术规范-应用系统集成接口规范相关要求，并结合自身系统特点进行集成接口设计。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】此处应用系统按照门户技术规范-应用系统集成接口规范相关要求，并结合自身系统特点进行集成接口设计。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】：设计应遵循《南方电网公司内外网数据安全交换平台技术规范》和《南方电网公司内外网数据安全交互规范》。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】：设计应遵循《南方电网公司内外网数据安全交换平台技术规范》和《南方电网公司内外网数据安全交互规范》。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】定义出系统的所有逻辑部署单元及其依赖关系，并按如下表格要求，说明每个部署单元所包含的组件。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】定义出系统的所有逻辑部署单元及其依赖关系，并按如下表格要求，说明每个部署单元所包含的组件。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】： 部署单元编号：为部署单元流水号，编码格式为DU[XX] 部署单元名称：部署单元的名称 部署单元描述：为该部署单元的主要用途等做说明 非功能需求：部署单元所包括组件的非功能需求 组件编号：为组...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】： 部署单元编号：为部署单元流水号，编码格式为DU[XX] 部署单元名称：部署单元的名称 部署单元描述：为该部署单元的主要用途等做说明 非功能需求：部署单元所包括组件的非功能需求 组件编号：为组件的流水号。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】适用于非云部署，以图形和文字定义部署节点逻辑组成，应描述节点承载的部署单元，并说明设计原因。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】适用于非云部署，以图形和文字定义部署节点逻辑组成，应描述节点承载的部署单元，并说明设计原因。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】虚框表示逻辑部署节点，实框表示物理部署节点。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】虚框表示逻辑部署节点，实框表示物理部署节点。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】： 部署节点编号：为部署节点流水号，编码格式为DP[XX] 部署节点名称：部署节点的名称 部署节点描述：为该部署节点的说明 相关部署单元：部署在该部署节点上部署单元的编号 硬件名称：该部署节点需...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】： 部署节点编号：为部署节点流水号，编码格式为DP[XX] 部署节点名称：部署节点的名称 部署节点描述：为该部署节点的说明 相关部署单元：部署在该部署节点上部署单元的编号 硬件名称：该部署节点需要包括的硬件。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】对应用系统自身的非功能设计进行分析。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】对应用系统自身的非功能设计进行分析。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明 是否通过审批 备注 1 总体架构差异 “中标通知”功能在物资管理系统中实现；而总体架构中是在电子商务平台系统中实现 是 在电子商务平台系统实现后，该部分功能迁移至电子商务平台。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 是否通过审批 备注 1 总体架构差异 “中标通知”功能在物资管理系统中实现；而总体架构中是在电子商务平台系统中实现 是 在电子商务平台系统实现后，该部分功能迁移至电子商务平台。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明】： 编号：差异编号，流水号，从数字1开始。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】： 编号：差异编号，流水号，从数字1开始。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "说明：对差异的情况进行说明，如“增加了 … ”、“修改了 … ”。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明：对差异的情况进行说明，如“增加了 … ”、“修改了 … ”。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "描述 AM0001 业扩报装 XXXX AM0001.0001 预受理与受理 包括了预受理报装、业务受理、处理结果通知、临时用电延期审批、到期业务通知客户等功能。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 AM0001 业扩报装 XXXX AM0001.0001 预受理与受理 包括了预受理报装、业务受理、处理结果通知、临时用电延期审批、到期业务通知客户等功能。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "描述：模块内容描述与总体架构设计一致。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述：模块内容描述与总体架构设计一致。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "描述对该功能进行说明。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述对该功能进行说明。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "描述 AI0001 客户信息交互 07-安全生产管理 系统公共管理 12-营销管理 业扩报装 客户基本信息 在营配集成中，营销管理应用将客户信息传递给安全生产应用中做停电计划优化。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 AI0001 客户信息交互 07-安全生产管理 系统公共管理 12-营销管理 业扩报装 客户基本信息 在营配集成中，营销管理应用将客户信息传递给安全生产应用中做停电计划优化。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "描述 集成方式 对应应用交互 实现方式 源系统 目标系统 频率 实时性 数据量 IC001 营销系统 财务管理系统 每天一次 中 20M 应用集成 AI.12.14.05 应用集成平台 其他 其他 其...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 集成方式 对应应用交互 实现方式 源系统 目标系统 频率 实时性 数据量 IC001 营销系统 财务管理系统 每天一次 中 20M 应用集成 AI.12.14.05 应用集成平台 其他 其他 其他 其他 其他 其他 其他 其他 其他 【编写说明】： 系统集成编号：为系统集成的流水号，编码格式为 SI[XXXX] 源系统：源系统名称。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "描述数据主题以及主题间的关系。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述数据主题以及主题间的关系。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "描述； 数据质量要求，填写有数据质量要求，描述了该数据项的由业务对象中业务规则转换，例如非空、唯一性、长度、格式、类型、阀值等相关内容； 对应的业务对象，将逻辑模型与需求规格说明书的业务对象进行映射，...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述； 数据质量要求，填写有数据质量要求，描述了该数据项的由业务对象中业务规则转换，例如非空、唯一性、长度、格式、类型、阀值等相关内容； 对应的业务对象，将逻辑模型与需求规格说明书的业务对象进行映射，包括后面的数据项； 对应的基本表名称，将逻辑模型与《数据模型规范》、《基本数据集》在的基本表名称进行映射，包括后面的属性标识和属性名称。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "描述逻辑实体对概念实体的继承和细化关系。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述逻辑实体对概念实体的继承和细化关系。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "描述逻辑实体与应用组件之间的 CRUD 关系。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述逻辑实体与应用组件之间的 CRUD 关系。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "描述应用系统技术路线。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述应用系统技术路线。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "描述应用系统逻辑模型。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述应用系统逻辑模型。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "描述应用系统技术实现方案。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述应用系统技术实现方案。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "描述： 图 营销管理系统与内部系统调用关系 2 ）对南网 6+1 规划范围外的优先考虑统一集成接口，但特殊应用采用个性化集成方式。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述： 图 营销管理系统与内部系统调用关系 2 ）对南网 6+1 规划范围外的优先考虑统一集成接口，但特殊应用采用个性化集成方式。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "描述如下： 用户访问应用系统的登录页面； 输入4A的账号和密码； 调用4A的会话申请接口； 4A系统返回会话票据和从账号； 应用系统保存会话票据，并使用从账号进行登录和鉴权； 3、授权管理集成设计 4...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述如下： 用户访问应用系统的登录页面； 输入4A的账号和密码； 调用4A的会话申请接口； 4A系统返回会话票据和从账号； 应用系统保存会话票据，并使用从账号进行登录和鉴权； 3、授权管理集成设计 4A平台与应用系统授权管理交互数据模型如下图所示，应用系统在下图交互数据模型中，选择自身系统需要使用的对象及关系进行同步。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "描述，具体由应用资源确定； 日志内容中必选变量的名称、取值格式都应与上表一致，且变量顺序也依据上表的顺序自上而下。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述，具体由应用资源确定； 日志内容中必选变量的名称、取值格式都应与上表一致，且变量顺序也依据上表的顺序自上而下。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "描述 特点 1 SYSLOG接口 应用资源通过调用SYSLOG接口将日志实时发送至 4A 平台的采集服务器 。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 特点 1 SYSLOG接口 应用资源通过调用SYSLOG接口将日志实时发送至 4A 平台的采集服务器 。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "描述 非功能需求 组件清单（包括应用组件、平台组件和数据库） 组件编号 组件名称 xxx xxx表单组件 … . … . 【编写说明】： 部署单元编号：为部署单元流水号，编码格式为DU[XX] 部署单...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 非功能需求 组件清单（包括应用组件、平台组件和数据库） 组件编号 组件名称 xxx xxx表单组件 … . … . 【编写说明】： 部署单元编号：为部署单元流水号，编码格式为DU[XX] 部署单元名称：部署单元的名称 部署单元描述：为该部署单元的主要用途等做说明 非功能需求：部署单元所包括组件的非功能需求 组件编号：为组件的流水号。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "描述节点承载的部署单元，并说明设计原因。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述节点承载的部署单元，并说明设计原因。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "描述 相关部署单元 DU01 硬件（包括服务器、网络设备、存储等） 硬件名称 需求描述 服务器1 xxxx 服务器2 xxxx 负载均衡设备 xxxx …… …… 【编写说明】： 部署节点编号：为部署...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 相关部署单元 DU01 硬件（包括服务器、网络设备、存储等） 硬件名称 需求描述 服务器1 xxxx 服务器2 xxxx 负载均衡设备 xxxx …… …… 【编写说明】： 部署节点编号：为部署节点流水号，编码格式为DP[XX] 部署节点名称：部署节点的名称 部署节点描述：为该部署节点的说明 相关部署单元：部署在该部署节点上部署单元的编号 硬件名称：该部署节点需要包括的硬件。"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "包含\"风险\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 撰写风险分析和应对措施"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "包含\"背景\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "包含\"目标\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+      },
+      {
+        "location": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+        "content": "包含\"技术方案\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述技术实现方案"
+      },
+      {
+        "location": "template\\06概要设计\\02概要设计评审意见书\\XX项目概要设计评审意见书.docx",
+        "content": "说明书 评审意见书 项目 介绍 项目概述 项目背景描述 项目目标 项目建设目标 项目主要 建设 内容 项目建设主要内容 应用 范围 项目成果应用范围，例如： 本项目的建设范围为南方电网 公司下属广东电...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书 评审意见书 项目 介绍 项目概述 项目背景描述 项目目标 项目建设目标 项目主要 建设 内容 项目建设主要内容 应用 范围 项目成果应用范围，例如： 本项目的建设范围为南方电网 公司下属广东电网公司、广西电网公司、云南电网公司、 贵州 电网公司 、 海南电网公司、 广州供电局、 深圳供电局、超高压公司 。"
+      },
+      {
+        "location": "template\\06概要设计\\02概要设计评审意见书\\XX项目概要设计评审意见书.docx",
+        "content": "说明书 》 评审意见 公司组织召开了 XX 项目的 概要设计 说明书评审会议。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书 》 评审意见 公司组织召开了 XX 项目的 概要设计 说明书评审会议。"
+      },
+      {
+        "location": "template\\06概要设计\\02概要设计评审意见书\\XX项目概要设计评审意见书.docx",
+        "content": "说明书 》（以下简称 概要设计 说明书），经 资料审查、质询 讨论，形成评审意见如下： 一、项目组提交的“ 概要设计 说明书”完整、规范，符合评审要求。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书 》（以下简称 概要设计 说明书），经 资料审查、质询 讨论，形成评审意见如下： 一、项目组提交的“ 概要设计 说明书”完整、规范，符合评审要求。"
+      },
+      {
+        "location": "template\\06概要设计\\02概要设计评审意见书\\XX项目概要设计评审意见书.docx",
+        "content": "描述 项目目标 项目建设目标 项目主要 建设 内容 项目建设主要内容 应用 范围 项目成果应用范围，例如： 本项目的建设范围为南方电网 公司下属广东电网公司、广西电网公司、云南电网公司、 贵州 电网公...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 项目目标 项目建设目标 项目主要 建设 内容 项目建设主要内容 应用 范围 项目成果应用范围，例如： 本项目的建设范围为南方电网 公司下属广东电网公司、广西电网公司、云南电网公司、 贵州 电网公司 、 海南电网公司、 广州供电局、 深圳供电局、超高压公司 。"
+      },
+      {
+        "location": "template\\06概要设计\\02概要设计评审意见书\\XX项目概要设计评审意见书.docx",
+        "content": "包含\"背景\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+      },
+      {
+        "location": "template\\06概要设计\\02概要设计评审意见书\\XX项目概要设计评审意见书.docx",
+        "content": "包含\"目标\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "说明》中的应用架构，用一系列图表列出本程序系统内的每个程序（包括每个模块和子程序）的名称、标识符和它们之间的层次结构关系。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明》中的应用架构，用一系列图表列出本程序系统内的每个程序（包括每个模块和子程序）的名称、标识符和它们之间的层次结构关系。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "说明书》 中的技术架构部分，说明系统（如果是分册，可以是相关子系统或子模块）技术实现层次结构。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书》 中的技术架构部分，说明系统（如果是分册，可以是相关子系统或子模块）技术实现层次结构。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "说明】应用系统采用模块化设计及部署，未来建设应用级灾备中心建设时，能根据功能模块重要程度分开部署，最大程度降低灾备端设备规模。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明】应用系统采用模块化设计及部署，未来建设应用级灾备中心建设时，能根据功能模块重要程度分开部署，最大程度降低灾备端设备规模。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "描述 系统提供锁定显示样式功能，在沿布图导出 CAD 时，确定导出地理范围后，可以进一步通过锁定显示样式功能，自定义 设置导出显示比例，解决在小比例尺导出时部分设备图层未显示导致导出结果不完整的 问题...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 系统提供锁定显示样式功能，在沿布图导出 CAD 时，确定导出地理范围后，可以进一步通过锁定显示样式功能，自定义 设置导出显示比例，解决在小比例尺导出时部分设备图层未显示导致导出结果不完整的 问题。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "描述 0 1 文件浏览 单击 操作员点击 “文件 浏览 ”按钮， 可以选择导出cad文件的导出路径。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 0 1 文件浏览 单击 操作员点击 “文件 浏览 ”按钮， 可以选择导出cad文件的导出路径。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "描述 系统提供启动和关闭放大镜窗口功能，放大镜窗口启动后，放大镜 默认显示地图中心点的放大图。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 系统提供启动和关闭放大镜窗口功能，放大镜窗口启动后，放大镜 默认显示地图中心点的放大图。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "描述 01 打开/关闭放大镜窗口 单击 打开或关闭放大镜窗口。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 01 打开/关闭放大镜窗口 单击 打开或关闭放大镜窗口。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "描述 为了在 XX 图上能够显示站房的站内一次接线图，系统提供站内图预览窗口，在窗口打开的状态下，将鼠标点击到 站房类设备（变电站、配电房、箱变等）上， 窗口 显示该站房设备的站内一次图 预览 。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 为了在 XX 图上能够显示站房的站内一次接线图，系统提供站内图预览窗口，在窗口打开的状态下，将鼠标点击到 站房类设备（变电站、配电房、箱变等）上， 窗口 显示该站房设备的站内一次图 预览 。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "描述 0 1 菜单 单击 打开 站内图预览窗口 。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 0 1 菜单 单击 打开 站内图预览窗口 。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "描述 为了在 XX 图上能够显示站房的站内开关的分合状态，系统 支持通过站房端口的颜色表达站内开关的分合状态 的功能 。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 为了在 XX 图上能够显示站房的站内开关的分合状态，系统 支持通过站房端口的颜色表达站内开关的分合状态 的功能 。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "描述 0 1 开关分/ 合的电房端子 显示 显示 站房内部一次接线图保存时或站内外连接变更后，程序自动分析站房端子与站内母线之间开关的分合状态值，如果与母线之间的开关均为闭合状态，则对应的站房端子显示...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 0 1 开关分/ 合的电房端子 显示 显示 站房内部一次接线图保存时或站内外连接变更后，程序自动分析站房端子与站内母线之间开关的分合状态值，如果与母线之间的开关均为闭合状态，则对应的站房端子显示为红色，如果与母线之间存在非闭合状态的开关，则对应的站房端子显示为绿色。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "描述 电网着色功能提供 按照线路设备的维护班组（供电所） 着色、按照 设备运行状态着色 、按照设备的资产属性着色、与按照扑连通设备着色 功能 。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 电网着色功能提供 按照线路设备的维护班组（供电所） 着色、按照 设备运行状态着色 、按照设备的资产属性着色、与按照扑连通设备着色 功能 。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "描述 0 1 供电所着色 单击 系统根据设备的维护部门属性进行分类，通过不同的颜色显示不同维护班组（供电所）的设备。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 0 1 供电所着色 单击 系统根据设备的维护部门属性进行分类，通过不同的颜色显示不同维护班组（供电所）的设备。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "描述 为了将选中的设备快速定位到设备树，系统提供从 XX 图定位到设备树功能。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 为了将选中的设备快速定位到设备树，系统提供从 XX 图定位到设备树功能。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "描述 0 1 定位到设备树 单击 根据 XX 图上选择的设备，获取设备对象，系统依次遍历设备树节点设备对象，查询到与选中对象相同的节点时，展开 定位到对应的 设备树节点。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 0 1 定位到设备树 单击 根据 XX 图上选择的设备，获取设备对象，系统依次遍历设备树节点设备对象，查询到与选中对象相同的节点时，展开 定位到对应的 设备树节点。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "描述 提供突出显示环网线路功能，在沿布图上可直观地查看环网区域内的线路环网情况。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 提供突出显示环网线路功能，在沿布图上可直观地查看环网区域内的线路环网情况。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "描述 0 1 显示环网线路 单击 操作员点击菜单“显示环网线路”， 系统根据 加载电网数据范围中的线路拓扑连接情况，分析出线路的环网路径。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 0 1 显示环网线路 单击 操作员点击菜单“显示环网线路”， 系统根据 加载电网数据范围中的线路拓扑连接情况，分析出线路的环网路径。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "描述 完善电网 XX 图的图形输出功能， 根据制图打印设置将 沿布 图输出为 CAD 格式的图形文件，操作员即可利用 A utoCAD 丰富的打印接口实现制图。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 完善电网 XX 图的图形输出功能， 根据制图打印设置将 沿布 图输出为 CAD 格式的图形文件，操作员即可利用 A utoCAD 丰富的打印接口实现制图。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "描述 0 1 是否导出指北针 单击 选择是否导出指北针。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 0 1 是否导出指北针 单击 选择是否导出指北针。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "描述 支持版本升级后强制在线客户端程序退出的程序逻辑和后台配置支持。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 支持版本升级后强制在线客户端程序退出的程序逻辑和后台配置支持。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "描述 0 1 退出消息框 显示 系统检测到已发布的在线客户端强制退出消息后，弹出消息提示框， 提前告知 显示强制退出的运维消息。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 0 1 退出消息框 显示 系统检测到已发布的在线客户端强制退出消息后，弹出消息提示框， 提前告知 显示强制退出的运维消息。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "描述 支持客户端消息推送功能，允许管 理员向所有在用的客户端程序推送版本更新、后台维护计划等提示信息 。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 支持客户端消息推送功能，允许管 理员向所有在用的客户端程序推送版本更新、后台维护计划等提示信息 。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "描述 01 消息提示框 显示 系统检测到管理员发布的消息后，弹出消息提示框。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 01 消息提示框 显示 系统检测到管理员发布的消息后，弹出消息提示框。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "描述 增加人资系统组织机构及 4A 平台调整同步的功能 。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 增加人资系统组织机构及 4A 平台调整同步的功能 。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "描述 0 0 4A组织机构同步 单击 操作员点击菜单“4A组织机构同步”， 系统读取4A组织机构数据和 XX 部门数据， 初始化部门层次树 ， 弹出组织机构同步界面。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 0 0 4A组织机构同步 单击 操作员点击菜单“4A组织机构同步”， 系统读取4A组织机构数据和 XX 部门数据， 初始化部门层次树 ， 弹出组织机构同步界面。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "列出本程序系统内的每个程序（包括每个模块和子程序）的名称、标识符和它们之间的层次结构关系。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，列出本程序系统内的每个程序（包括每个模块和子程序）的名称、标识符和它们之间的层次结构关系。"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "包含\"背景\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+      },
+      {
+        "location": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+        "content": "包含\"目标\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+      },
+      {
+        "location": "template\\07详细设计\\02详细设计评审意见书\\XX项目详细设计评审意见书.docx",
+        "content": "说明书 评审意见书 项目 介绍 项目概述 项目背景描述 项目目标 项目建设目标 项目主要 建设 内容 项目建设主要内容 应用 范围 项目成果应用范围，例如： 本项目的建设范围为南方电网 公司下属广东电...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书 评审意见书 项目 介绍 项目概述 项目背景描述 项目目标 项目建设目标 项目主要 建设 内容 项目建设主要内容 应用 范围 项目成果应用范围，例如： 本项目的建设范围为南方电网 公司下属广东电网公司、广西电网公司、云南电网公司、 贵州 电网公司 、 海南电网公司、 广州供电局、 深圳供电局、超高压公司 。"
+      },
+      {
+        "location": "template\\07详细设计\\02详细设计评审意见书\\XX项目详细设计评审意见书.docx",
+        "content": "说明书 》 评审意见 公司组织召开了 XX 项目的 详细 设计 说明书评审会议。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书 》 评审意见 公司组织召开了 XX 项目的 详细 设计 说明书评审会议。"
+      },
+      {
+        "location": "template\\07详细设计\\02详细设计评审意见书\\XX项目详细设计评审意见书.docx",
+        "content": "说明书 》（以下简称 详细 设计 说明书），经 资料审查、质询 讨论，形成评审意见如下： 一、项目组提交的“ 详细 设计 说明书”完整、规范，符合评审要求。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书 》（以下简称 详细 设计 说明书），经 资料审查、质询 讨论，形成评审意见如下： 一、项目组提交的“ 详细 设计 说明书”完整、规范，符合评审要求。"
+      },
+      {
+        "location": "template\\07详细设计\\02详细设计评审意见书\\XX项目详细设计评审意见书.docx",
+        "content": "说明书通过评审 ，并要求在以下方面完善 。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书通过评审 ，并要求在以下方面完善 。"
+      },
+      {
+        "location": "template\\07详细设计\\02详细设计评审意见书\\XX项目详细设计评审意见书.docx",
+        "content": "描述 项目目标 项目建设目标 项目主要 建设 内容 项目建设主要内容 应用 范围 项目成果应用范围，例如： 本项目的建设范围为南方电网 公司下属广东电网公司、广西电网公司、云南电网公司、 贵州 电网公...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 项目目标 项目建设目标 项目主要 建设 内容 项目建设主要内容 应用 范围 项目成果应用范围，例如： 本项目的建设范围为南方电网 公司下属广东电网公司、广西电网公司、云南电网公司、 贵州 电网公司 、 海南电网公司、 广州供电局、 深圳供电局、超高压公司 。"
+      },
+      {
+        "location": "template\\07详细设计\\02详细设计评审意见书\\XX项目详细设计评审意见书.docx",
+        "content": "包含\"背景\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+      },
+      {
+        "location": "template\\07详细设计\\02详细设计评审意见书\\XX项目详细设计评审意见书.docx",
+        "content": "包含\"目标\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+      },
+      {
+        "location": "template\\08开发与测试\\01开发工作方案\\工作方案模板.docx",
+        "content": "描述本项目的主要工作成果 职责分工 【编写说明】明确本项目各组织和角色的分工和职责 工作内容 和进度 【编写说明】详细说明本项各阶段工作内容及进度安排 根据 XX 工作要求，该工作分为前期准备、 需求...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述本项目的主要工作成果 职责分工 【编写说明】明确本项目各组织和角色的分工和职责 工作内容 和进度 【编写说明】详细说明本项各阶段工作内容及进度安排 根据 XX 工作要求，该工作分为前期准备、 需求分析、 总体 设计、 详细 设计 、 实施策略 制定 五 个阶段 ，详细的工作安排见 “ 附录 2 : XX 工作流程图” 。"
+      },
+      {
+        "location": "template\\08开发与测试\\01开发工作方案\\工作方案模板.docx",
+        "content": "包含\"背景\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+      },
+      {
+        "location": "template\\08开发与测试\\01开发工作方案\\工作方案模板.docx",
+        "content": "包含\"目标\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+      },
+      {
+        "location": "template\\08开发与测试\\04周报\\1、XX建设工作周报-20191021.docx",
+        "content": "说明延迟情况及处理措施 。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明延迟情况及处理措施 。"
+      },
+      {
+        "location": "template\\08开发与测试\\04周报\\1、XX建设工作周报-20191021.docx",
+        "content": "描述项目当前进展情况。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述项目当前进展情况。"
+      },
+      {
+        "location": "template\\08开发与测试\\08测试方案\\2、测试方案.docx",
+        "content": "说明主要输入、信息/数据加工过程、和输出即可。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明主要输入、信息/数据加工过程、和输出即可。"
+      },
+      {
+        "location": "template\\08开发与测试\\08测试方案\\2、测试方案.docx",
+        "content": "说明书》 《软件需求规格说明书》 《系统设计说明书》（可能分概要设计和详细设计） 测试策略与范围 参照《SPI_SPE_软件集成测试、系统测试与确认测试技术流程》来确定。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明书》 《软件需求规格说明书》 《系统设计说明书》（可能分概要设计和详细设计） 测试策略与范围 参照《SPI_SPE_软件集成测试、系统测试与确认测试技术流程》来确定。"
+      },
+      {
+        "location": "template\\08开发与测试\\08测试方案\\2、测试方案.docx",
+        "content": "说明，如性能、安全性等不作为测试范围的需求。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明，如性能、安全性等不作为测试范围的需求。"
+      },
+      {
+        "location": "template\\08开发与测试\\08测试方案\\2、测试方案.docx",
+        "content": "说明测试主要活动的安排和大致时间段。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明测试主要活动的安排和大致时间段。"
+      },
+      {
+        "location": "template\\08开发与测试\\08测试方案\\2、测试方案.docx",
+        "content": "说明变更的概要说明，约定还将说明更新的形式如非正式发布和紧急发布产品时的更新方法。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明变更的概要说明，约定还将说明更新的形式如非正式发布和紧急发布产品时的更新方法。"
+      },
+      {
+        "location": "template\\08开发与测试\\08测试方案\\2、测试方案.docx",
+        "content": "说明和相关接口需求规格说明。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明和相关接口需求规格说明。"
+      },
+      {
+        "location": "template\\08开发与测试\\08测试方案\\2、测试方案.docx",
+        "content": "包含\"风险\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 撰写风险分析和应对措施"
+      },
+      {
+        "location": "template\\08开发与测试\\08测试方案\\2、测试方案.docx",
+        "content": "包含\"背景\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+      },
+      {
+        "location": "template\\08开发与测试\\08测试方案\\2、测试方案.docx",
+        "content": "包含\"目标\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+      },
+      {
+        "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+        "content": "说明系统安装部署所需的软件、文档、初始化脚本、操作手册等。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明系统安装部署所需的软件、文档、初始化脚本、操作手册等。"
+      },
+      {
+        "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+        "content": "说明IP地址的规划方案。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明IP地址的规划方案。"
+      },
+      {
+        "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+        "content": "说明光纤交换机端口的规划方案。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明光纤交换机端口的规划方案。"
+      },
+      {
+        "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+        "content": "说明 1 交换机互联 磁盘规划 磁盘阵列规划 说明磁盘阵列的规划内容，如： 磁盘阵列中配置了XX块XXXG硬盘，做成2个raid组。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 1 交换机互联 磁盘规划 磁盘阵列规划 说明磁盘阵列的规划内容，如： 磁盘阵列中配置了XX块XXXG硬盘，做成2个raid组。"
+      },
+      {
+        "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+        "content": "说明卷组和文件系统的规划方案。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明卷组和文件系统的规划方案。"
+      },
+      {
+        "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+        "content": "说明 1 lv_appfile 50G appfilevg 文件系统 上传附件目录 2 lvsas_system 2G data1vg 裸设备 系统表空间 系统应用环境 用表格形式说明系统应用环境。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 1 lv_appfile 50G appfilevg 文件系统 上传附件目录 2 lvsas_system 2G data1vg 裸设备 系统表空间 系统应用环境 用表格形式说明系统应用环境。"
+      },
+      {
+        "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+        "content": "说明，如： 机房环境要求 机房内部机器布置应具有足够的服务空间并有可扩充性。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明，如： 机房环境要求 机房内部机器布置应具有足够的服务空间并有可扩充性。"
+      },
+      {
+        "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+        "content": "说明，如： 地面及地下需要清洁 UPS电气性能稳定 各机电源以及机房电工到位 空调已正常运转 消防设备到位 地板通气孔到位 RS/6000布线所需的三块打孔地板到位，(孔的位置在地板边沿，面积约200...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明，如： 地面及地下需要清洁 UPS电气性能稳定 各机电源以及机房电工到位 空调已正常运转 消防设备到位 地板通气孔到位 RS/6000布线所需的三块打孔地板到位，(孔的位置在地板边沿，面积约200CM2) 安装步骤 详细说明安装所需各步骤。"
+      },
+      {
+        "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+        "content": "说明数据库安装的要求和步骤，包括： 检查操作系统是否符合要求； 检查安装文件是否完整； 详细说明安装步骤（是否群集安装等）； …… 数据库初始化 说明数据库初始化的详细步骤及检查方法。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明数据库安装的要求和步骤，包括： 检查操作系统是否符合要求； 检查安装文件是否完整； 详细说明安装步骤（是否群集安装等）； …… 数据库初始化 说明数据库初始化的详细步骤及检查方法。"
+      },
+      {
+        "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+        "content": "说明操作系统安装的要求和详细步骤，包括相关第三方软件的安装，如上传下载、安全软件等。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明操作系统安装的要求和详细步骤，包括相关第三方软件的安装，如上传下载、安全软件等。"
+      },
+      {
+        "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+        "content": "说明中间件安装的要求和详细步骤，如群集安装，服务节点安装等。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明中间件安装的要求和详细步骤，如群集安装，服务节点安装等。"
+      },
+      {
+        "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+        "content": "说明应用系统安装的要求和详细步骤，包括安装地址，备份文件地址等。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明应用系统安装的要求和详细步骤，包括安装地址，备份文件地址等。"
+      },
+      {
+        "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+        "content": "说明常见问题的处理办法，如安装失败、系统无法访问等。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明常见问题的处理办法，如安装失败、系统无法访问等。"
+      },
+      {
+        "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+        "content": "描述编写这个文档的目的。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述编写这个文档的目的。"
+      },
+      {
+        "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+        "content": "描述系统安装的结构、总体计划和资源配置等。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述系统安装的结构、总体计划和资源配置等。"
+      },
+      {
+        "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+        "content": "列出安装单位机房现状拓扑图及安装后的拓扑图。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，列出安装单位机房现状拓扑图及安装后的拓扑图。"
+      },
+      {
+        "location": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+        "content": "包含\"目标\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "说明项目的提出者、开发者、用户和使用场所。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明项目的提出者、开发者、用户和使用场所。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "说明 系统用途 【 说明系统具备的功能，输入和输出。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 系统用途 【 说明系统具备的功能，输入和输出。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "说明系统安全保密方面的考虑 和用户权限的设置 。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明系统安全保密方面的考虑 和用户权限的设置 。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "说明 【 说明系统的总体功能，对系统、子系统和作业做出综合性的介绍，并用图表的方式给出系统主要部分的内部关系。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 【 说明系统的总体功能，对系统、子系统和作业做出综合性的介绍，并用图表的方式给出系统主要部分的内部关系。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "说明 【 说明系统中每一程序、分程序的细节和特性。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 【 说明系统中每一程序、分程序的细节和特性。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "说明 ● 功能：说明程序的功能。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 ● 功能：说明程序的功能。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "说明程序的输入、媒体、运行数据记录、运行开始时使用的输入数据的类型和存放单元、与程序初始化有关的入口要求。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明程序的输入、媒体、运行数据记录、运行开始时使用的输入数据的类型和存放单元、与程序初始化有关的入口要求。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "说明程序的运行的逻辑流程；程序主要转移条件；对程序的约束条件；程序结束时的出口要求；与下一个程序的通 信与联结（运行、控制）；由该程序产生并茶馆处理程序段使用的输出数据类型和存放单元；程序运行存储量、...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明程序的运行的逻辑流程；程序主要转移条件；对程序的约束条件；程序结束时的出口要求；与下一个程序的通 信与联结（运行、控制）；由该程序产生并茶馆处理程序段使用的输出数据类型和存放单元；程序运行存储量、类型及存储位置等。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "说明程序内部的各种表、项的细节和特性。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明程序内部的各种表、项的细节和特性。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "说明至少包括：表的标识符；使用目的；使用此表的其他程序；逻辑划分，如块或部，不包括表项；表的基本结构；设计安排，包括表的控制信息。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明至少包括：表的标识符；使用目的；使用此表的其他程序；逻辑划分，如块或部，不包括表项；表的基本结构；设计安排，包括表的控制信息。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "说明在用户操作手册中没有提到的运行性质。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明在用户操作手册中没有提到的运行性质。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "说明 【 与程序 1 的说明相同。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 【 与程序 1 的说明相同。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "说明系统的设备配置及其特性。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明系统的设备配置及其特性。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "说明每个数据库的性质和内容，包括安全考虑。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明每个数据库的性质和内容，包括安全考虑。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "说明 ● 说明该数据库的结构，包括其中的记录和项。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明 ● 说明该数据库的结构，包括其中的记录和项。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "说明记录的组成，包括首部或控制段、记录体。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明记录的组成，包括首部或控制段、记录体。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "说明每个记录结构的字段，包括：标记或标号、字段的字符长度和位数、该字段的允许值范围。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明每个记录结构的字段，包括：标记或标号、字段的字符长度和位数、该字段的允许值范围。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "说明为记录追加字段的规定。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明为记录追加字段的规定。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "说明一个程序段修改后，对其进行验证的要求和过程（包括测试程序和数据）及程序周期性验证的过程。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明一个程序段修改后，对其进行验证的要求和过程（包括测试程序和数据）及程序周期性验证的过程。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "说明文档其他地方没有提到的专门维护过程。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明文档其他地方没有提到的专门维护过程。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "说明，内容包括：维护作业的输入输出要求；输入的详细过程及在硬设备上建立、运行并完成维护作业的操作步骤。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，说明，内容包括：维护作业的输入输出要求；输入的详细过程及在硬设备上建立、运行并完成维护作业的操作步骤。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "阐明编写手册的目的并指明读者对象。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，阐明编写手册的目的并指明读者对象。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "列出报告中所用到的专门术语的定义和缩写词的原意。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，列出报告中所用到的专门术语的定义和缩写词的原意。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "列出有关资料的作者、标题、编号、发表日期、出版单位或资料来源，及保密级别，可包括：用户操作手册；与本项目有关的其他文档。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，列出有关资料的作者、标题、编号、发表日期、出版单位或资料来源，及保密级别，可包括：用户操作手册；与本项目有关的其他文档。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "列出系统使用的支持软件，包括它们的名称和版本号。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，列出系统使用的支持软件，包括它们的名称和版本号。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "列出该软件系统设计中所使用全部规则和约定，包括：程序、分程序、记录、字段和存储区的标识或标号助记符的使用规则；图表的处理标准、卡片的连接顺序、语句和记号中使用的缩写、出现在图表中的符号名；使用的软件技...",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，列出该软件系统设计中所使用全部规则和约定，包括：程序、分程序、记录、字段和存储区的标识或标号助记符的使用规则；图表的处理标准、卡片的连接顺序、语句和记号中使用的缩写、出现在图表中的符号名；使用的软件技术标准；标准化的数据元素及其特征。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "列出出错状态及其纠正方法。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，列出出错状态及其纠正方法。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "列出维护软件系统使用的后备技术和专用程序（如文件恢复程序、淘汰过时文件的程序等）的目录，并加以说明，内容包括：维护作业的输入输出要求；输入的详细过程及在硬设备上建立、运行并完成维护作业的操作步骤。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，列出维护软件系统使用的后备技术和专用程序（如文件恢复程序、淘汰过时文件的程序等）的目录，并加以说明，内容包括：维护作业的输入输出要求；输入的详细过程及在硬设备上建立、运行并完成维护作业的操作步骤。"
+      },
+      {
+        "location": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+        "content": "包含\"背景\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目背景和立项依据"
+      },
+      {
+        "location": "template\\10验收\\03项目中期报告\\项目工作报告_基于4D-BIM技术的变电修理技改项目管理系统研究与应用.docx",
+        "content": "包含\"风险\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 撰写风险分析和应对措施"
+      },
+      {
+        "location": "template\\11试运行\\02试运行报告\\试运行报告.docx",
+        "content": "描述 故障登记时间 故障是否重现 故障是否已解决 备注 1 功能 缺陷 Xx 功能无法正常使用，点击报错 。",
+        "suggestedPrompt": "根据项目 {projectName} 的实际情况，描述 故障登记时间 故障是否重现 故障是否已解决 备注 1 功能 缺陷 Xx 功能无法正常使用，点击报错 。"
+      },
+      {
+        "location": "template\\11试运行\\02试运行报告\\试运行报告.docx",
+        "content": "包含\"可行性\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 撰写可行性分析报告"
+      },
+      {
+        "location": "template\\11试运行\\02试运行报告\\试运行报告.docx",
+        "content": "包含\"目标\"相关内容",
+        "suggestedPrompt": "为项目 {projectName} 描述项目目标和预期成果"
+      }
+    ],
+    "manifestUpdate": {
+      "variables": {
+        "companyName": {
+          "type": "string",
+          "description": "公司名称"
+        },
+        "projectName": {
+          "type": "string",
+          "description": "项目名称"
+        },
+        "personName": {
+          "type": "string",
+          "description": "人员姓名"
+        },
+        "startYear": {
+          "type": "string",
+          "description": "开始年份"
+        },
+        "version": {
+          "type": "string",
+          "description": "版本号"
+        }
+      },
+      "aiFields": [
+        {
+          "template": "template\\01立项\\01项目建议书\\xx项目建议书.docx",
+          "field": "projectSummary",
+          "prompt": "为项目 {projectName} 撰写项目总结报告"
+        },
+        {
+          "template": "template\\01立项\\02项目可行性分析报告\\xxx项目可行性研究报告V0.1.docx",
+          "field": "content",
+          "prompt": "根据项目 {projectName} 的实际情况，说明 【说明本次投资的硬件、软件的计算依据说明】 1、整体单价取费原则：根据公司信息化项目预算编制与计算方法，开发费1 5 00元/人天，实施推广 12 00元/人天（含差旅费）。"
+        },
+        {
+          "template": "template\\02项目管理\\01计划任务书\\【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+          "field": "content",
+          "prompt": "根据项目 {projectName} 的实际情况，说明书要求 集成子系统的功能在统一平台的呈现。"
+        },
+        {
+          "template": "template\\03需求分析\\01需求规格说明书\\2、XX平台需求规格说明书.docx",
+          "field": "content",
+          "prompt": "根据项目 {projectName} 的实际情况，说明书》分别给予说明，而平台的非功能性需求将由本文档从平台性能、可靠性、可维护性、易用性、可扩展性、安全性等方面进行描述。"
+        },
+        {
+          "template": "template\\03需求分析\\03需求评审意见书\\2、XX项目需求评审意见.docx",
+          "field": "content",
+          "prompt": "根据项目 {projectName} 的实际情况，说明书》（一下简称“需求规格说明书”）。"
+        },
+        {
+          "template": "template\\04研发制度管理\\02工作规范\\前端项目开发技术规范_V1.0.docx",
+          "field": "content",
+          "prompt": "根据项目 {projectName} 的实际情况，描述包含 : ** 日期 ** 姓名 ** 审阅 ** 功能 ** 备注 函数方法注释： 函数用途 参数描述 返回值描述 备注 关键算法注释： 用途描述 关键点解释 注意事项 修改方法 文件夹规范 为规范化文件夹不允许含有中文名。"
+        },
+        {
+          "template": "template\\04研发制度管理\\02工作规范\\后台技术管理技术规范_V1.0.docx",
+          "field": "content",
+          "prompt": "根据项目 {projectName} 的实际情况，说明性 ， 成员变量不需要添加 “_” 前缀 ， 成员变量添加 “_” 前缀格式化代码 1&gt; 指针 定义一个对象时，指针 \"*\" 靠近变量 例子 : NSString * userName ; 2&gt; 方法的声明和定义 在 - 、 + 和 返回值 之间留一个空格，方法名和第一个参数之间不留空格 可变数组或字典变量名 宏命名： 全部大写，单词间用 _ 分隔。"
+        },
+        {
+          "template": "template\\06概要设计\\01系统概要设计说明书\\XX建设项目概要设计说明书.docx",
+          "field": "content",
+          "prompt": "根据项目 {projectName} 的实际情况，说明书中的功能项和功能子项进行优化重组，形成一级应用功能。"
+        },
+        {
+          "template": "template\\06概要设计\\01系统概要设计说明书\\概要设计说明书模板V1.0.docx",
+          "field": "content",
+          "prompt": "根据项目 {projectName} 的实际情况，说明]包括应用架构、集成架构功能和集成场景内容。"
+        },
+        {
+          "template": "template\\06概要设计\\02概要设计评审意见书\\XX项目概要设计评审意见书.docx",
+          "field": "projectBackground",
+          "prompt": "根据项目 {projectName} 的实际情况，说明书 评审意见书 项目 介绍 项目概述 项目背景描述 项目目标 项目建设目标 项目主要 建设 内容 项目建设主要内容 应用 范围 项目成果应用范围，例如： 本项目的建设范围为南方电网 公司下属广东电网公司、广西电网公司、云南电网公司、 贵州 电网公司 、 海南电网公司、 广州供电局、 深圳供电局、超高压公司 。"
+        },
+        {
+          "template": "template\\07详细设计\\01系统详细设计说明书\\1、xx平台详细设计说明书(平台功能分册).docx",
+          "field": "content",
+          "prompt": "根据项目 {projectName} 的实际情况，说明》中的应用架构，用一系列图表列出本程序系统内的每个程序（包括每个模块和子程序）的名称、标识符和它们之间的层次结构关系。"
+        },
+        {
+          "template": "template\\07详细设计\\02详细设计评审意见书\\XX项目详细设计评审意见书.docx",
+          "field": "projectBackground",
+          "prompt": "根据项目 {projectName} 的实际情况，说明书 评审意见书 项目 介绍 项目概述 项目背景描述 项目目标 项目建设目标 项目主要 建设 内容 项目建设主要内容 应用 范围 项目成果应用范围，例如： 本项目的建设范围为南方电网 公司下属广东电网公司、广西电网公司、云南电网公司、 贵州 电网公司 、 海南电网公司、 广州供电局、 深圳供电局、超高压公司 。"
+        },
+        {
+          "template": "template\\08开发与测试\\01开发工作方案\\工作方案模板.docx",
+          "field": "content",
+          "prompt": "根据项目 {projectName} 的实际情况，描述本项目的主要工作成果 职责分工 【编写说明】明确本项目各组织和角色的分工和职责 工作内容 和进度 【编写说明】详细说明本项各阶段工作内容及进度安排 根据 XX 工作要求，该工作分为前期准备、 需求分析、 总体 设计、 详细 设计 、 实施策略 制定 五 个阶段 ，详细的工作安排见 “ 附录 2 : XX 工作流程图” 。"
+        },
+        {
+          "template": "template\\08开发与测试\\04周报\\1、XX建设工作周报-20191021.docx",
+          "field": "content",
+          "prompt": "根据项目 {projectName} 的实际情况，说明延迟情况及处理措施 。"
+        },
+        {
+          "template": "template\\08开发与测试\\08测试方案\\2、测试方案.docx",
+          "field": "content",
+          "prompt": "根据项目 {projectName} 的实际情况，说明主要输入、信息/数据加工过程、和输出即可。"
+        },
+        {
+          "template": "template\\08开发与测试\\13系统部署手册\\系统安装部署方案模板.docx",
+          "field": "content",
+          "prompt": "根据项目 {projectName} 的实际情况，说明系统安装部署所需的软件、文档、初始化脚本、操作手册等。"
+        },
+        {
+          "template": "template\\08开发与测试\\15系统维护手册\\系统维护手册模版.docx",
+          "field": "content",
+          "prompt": "根据项目 {projectName} 的实际情况，说明项目的提出者、开发者、用户和使用场所。"
+        },
+        {
+          "template": "template\\10验收\\03项目中期报告\\项目工作报告_基于4D-BIM技术的变电修理技改项目管理系统研究与应用.docx",
+          "field": "riskAnalysis",
+          "prompt": "为项目 {projectName} 撰写风险分析和应对措施"
+        },
+        {
+          "template": "template\\11试运行\\02试运行报告\\试运行报告.docx",
+          "field": "content",
+          "prompt": "根据项目 {projectName} 的实际情况，描述 故障登记时间 故障是否重现 故障是否已解决 备注 1 功能 缺陷 Xx 功能无法正常使用，点击报错 。"
+        }
+      ]
+    }
+  }
+}
