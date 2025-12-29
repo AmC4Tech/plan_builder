@@ -1,8 +1,8 @@
 {
     "name": "项目文档模板集",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "基于实际模板文件夹结构的自动化项目管理文档生成配置",
-    "templateBasePath": "template_converted/template",
+    "templateBasePath": "template",
     "requiredFields": [
         {
             "name": "projectName",
@@ -88,11 +88,19 @@
                     "aiFields": [
                         {
                             "field": "projectBackground",
-                            "prompt": "为项目 {projectName} 描述项目背景和立项依据。"
+                            "prompt": "为项目 {projectName} 描述详细的项目背景、现状分析和立项依据。"
                         },
                         {
                             "field": "projectObjective",
-                            "prompt": "为项目 {projectName} 描述项目目标和预期成果。"
+                            "prompt": "为项目 {projectName} 描述总体目标、具体业务目标和技术目标。"
+                        },
+                        {
+                            "field": "projectNecessity",
+                            "prompt": "分析项目 {projectName} 的建设必要性，包括政策合规性、业务紧迫性等方面。"
+                        },
+                        {
+                            "field": "marketAnalysis",
+                            "prompt": "为项目 {projectName} 进行市场需求分析和行业现状分析。"
                         }
                     ]
                 },
@@ -103,7 +111,7 @@
                     "aiFields": [
                         {
                             "field": "feasibilityAnalysis",
-                            "prompt": "为项目 {projectName} 撰写可行性分析报告，包括技术可行性、经济可行性和运营可行性。"
+                            "prompt": "为项目 {projectName} 撰写详细的可行性分析，涵盖技术可行性（成熟度、适用性）、经济可行性（投入产出比）、运营可行性及法律可行性。"
                         },
                         {
                             "field": "projectBackground",
@@ -111,15 +119,23 @@
                         },
                         {
                             "field": "riskAnalysis",
-                            "prompt": "为项目 {projectName} 撰写风险分析和应对措施。"
+                            "prompt": "为项目 {projectName} 进行全面的风险识别（技术、管理、外部风险）并制定具体的应对措施。"
                         },
                         {
                             "field": "technicalSolution",
-                            "prompt": "为项目 {projectName} 描述技术实现方案。"
+                            "prompt": "为项目 {projectName} 描述初步的技术实现方案和关键技术路线。"
                         },
                         {
                             "field": "implementationPlan",
-                            "prompt": "为项目 {projectName} 制定项目实施计划。"
+                            "prompt": "为项目 {projectName} 制定分阶段的实施计划和里程碑节点。"
+                        },
+                        {
+                            "field": "costBenefitAnalysis",
+                            "prompt": "为项目 {projectName} 进行投资估算和经济效益预测。"
+                        },
+                        {
+                            "field": "socialBenefits",
+                            "prompt": "阐述项目 {projectName} 带来的社会效益和管理效益。"
                         }
                     ]
                 }
@@ -131,7 +147,23 @@
             "defaultSettings": {
                 "required": true
             },
-            "documents": []
+            "documents": [
+                {
+                    "template": "02项目管理/01计划任务书/【变电站3D数据平台建设工程项目】技术服务计划书v0.5.docx",
+                    "outputName": "{projectName}技术服务计划书.docx",
+                    "required": true,
+                    "aiFields": [
+                        {
+                            "field": "projectScope",
+                            "prompt": "定义项目 {projectName} 的工作范围、边界和主要交付物。"
+                        },
+                        {
+                            "field": "schedulePlan",
+                            "prompt": "为项目 {projectName} 制定详细的项目进度计划表。"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "name": "需求分析",
@@ -152,6 +184,18 @@
                         {
                             "field": "projectObjective",
                             "prompt": "为项目 {projectName} 描述项目目标和预期成果。"
+                        },
+                        {
+                            "field": "userRequirements",
+                            "prompt": "详细描述项目 {projectName} 的用户角色和对应的业务需求。"
+                        },
+                        {
+                            "field": "functionalRequirements",
+                            "prompt": "列出项目 {projectName} 的核心功能需求，包括功能模块划分和功能点描述。"
+                        },
+                        {
+                            "field": "nonFunctionalRequirements",
+                            "prompt": "描述项目 {projectName} 的性能需求、安全需求、可靠性需求等非功能性要求。"
                         }
                     ]
                 },
@@ -186,6 +230,12 @@
                     "outputName": "后台技术管理技术规范.docx",
                     "required": false,
                     "optionKey": "includeBackendStandard"
+                },
+                {
+                    "template": "04研发制度管理/02工作规范/3DMAX建模技术规范.docx",
+                    "outputName": "3DMAX建模技术规范.docx",
+                    "required": false,
+                    "optionKey": "include3DStandard"
                 }
             ]
         },
@@ -222,7 +272,19 @@
                         },
                         {
                             "field": "technicalSolution",
-                            "prompt": "为项目 {projectName} 描述系统技术架构和实现方案。"
+                            "prompt": "为项目 {projectName} 描述系统整体技术架构、逻辑架构和物理架构。"
+                        },
+                        {
+                            "field": "functionalArchitecture",
+                            "prompt": "设计项目 {projectName} 的功能架构图和模块划分。"
+                        },
+                        {
+                            "field": "networkTopology",
+                            "prompt": "描述项目 {projectName} 的网络拓扑结构和部署方案。"
+                        },
+                        {
+                            "field": "hardwareRequirements",
+                            "prompt": "列出项目 {projectName} 运行所需的服务器、存储和网络设备要求。"
                         }
                     ]
                 },
@@ -254,6 +316,26 @@
                         {
                             "field": "projectBackground",
                             "prompt": "为项目 {projectName} 描述项目背景和立项依据。"
+                        },
+                        {
+                            "field": "systemArchitecture",
+                            "prompt": "回顾项目 {projectName} 的系统架构，为详细设计提供上下文。"
+                        },
+                        {
+                            "field": "moduleDesign",
+                            "prompt": "详细设计项目 {projectName} 的各个核心功能模块，包括输入输出、处理逻辑和流程图。"
+                        },
+                        {
+                            "field": "databaseDesign",
+                            "prompt": "设计项目 {projectName} 的数据库逻辑结构，列出主要数据表和实体关系。"
+                        },
+                        {
+                            "field": "interfaceDesign",
+                            "prompt": "定义项目 {projectName} 的内部和外部接口规范，包括API定义。"
+                        },
+                        {
+                            "field": "securityDesign",
+                            "prompt": "设计项目 {projectName} 的系统安全方案，包括鉴权、数据加密和审计日志。"
                         }
                     ]
                 },
@@ -289,6 +371,17 @@
                     "optionKey": "includeDevLog"
                 },
                 {
+                    "template": "08开发与测试/04周报/1、XX建设工作周报-20191021.docx",
+                    "outputName": "{projectName}周报.docx",
+                    "required": true,
+                    "aiFields": [
+                        {
+                            "field": "weeklySummary",
+                            "prompt": "为项目 {projectName} 生成一份周报，包括本周工作进展、遇到的问题和下周计划。"
+                        }
+                    ]
+                },
+                {
                     "template": "08开发与测试/08测试方案/2、测试方案.docx",
                     "outputName": "{projectName}测试方案.docx",
                     "required": true,
@@ -296,13 +389,20 @@
                         {
                             "field": "testPlan",
                             "prompt": "为项目 {projectName} 制定测试方案和测试策略。"
+                        },
+                        {
+                            "field": "testScope",
+                            "prompt": "定义项目 {projectName} 的测试范围，包括功能测试、性能测试、安全测试等。"
+                        },
+                        {
+                            "field": "testEnvironment",
+                            "prompt": "描述项目 {projectName} 的测试环境配置，包括硬件和软件要求。"
+                        },
+                        {
+                            "field": "acceptanceCriteria",
+                            "prompt": "制定项目 {projectName} 的测试通过标准和准出条件。"
                         }
                     ]
-                },
-                {
-                    "template": "08开发与测试/11测试报告/XX平台测试报告.docx",
-                    "outputName": "{projectName}测试报告.docx",
-                    "required": true
                 },
                 {
                     "template": "08开发与测试/09测试用例/3、XX平台测试用例.xlsx",
@@ -310,9 +410,50 @@
                     "required": true
                 },
                 {
+                    "template": "08开发与测试/10测试用例评审意见/测试用例评审意见书模板.docx",
+                    "outputName": "{projectName}测试用例评审意见书.docx",
+                    "required": true
+                },
+                {
+                    "template": "08开发与测试/11测试报告/XX平台测试报告.docx",
+                    "outputName": "{projectName}测试报告.docx",
+                    "required": true,
+                    "aiFields": [
+                        {
+                            "field": "testConclusion",
+                            "prompt": "为项目 {projectName} 撰写测试结论，总结测试结果和系统质量状况。"
+                        }
+                    ]
+                },
+                {
                     "template": "08开发与测试/13系统部署手册/系统安装部署方案模板.docx",
                     "outputName": "{projectName}系统安装部署方案.docx",
-                    "required": true
+                    "required": true,
+                    "aiFields": [
+                        {
+                            "field": "deploymentSteps",
+                            "prompt": "详细描述项目 {projectName} 的系统安装步骤和部署流程。"
+                        },
+                        {
+                            "field": "environmentPrep",
+                            "prompt": "描述系统部署前的环境准备工作和依赖项检查。"
+                        }
+                    ]
+                },
+                {
+                    "template": "08开发与测试/15系统维护手册/系统维护手册模版.docx",
+                    "outputName": "{projectName}系统维护手册.docx",
+                    "required": true,
+                    "aiFields": [
+                        {
+                            "field": "maintenanceProcedures",
+                            "prompt": "制定项目 {projectName} 的日常维护流程，包括数据备份、日志检查等。"
+                        },
+                        {
+                            "field": "troubleshooting",
+                            "prompt": "为项目 {projectName} 编写常见故障排查指南和解决方案。"
+                        }
+                    ]
                 }
             ]
         },
@@ -330,7 +471,7 @@
                     "aiFields": [
                         {
                             "field": "trainingPlan",
-                            "prompt": "为项目 {projectName} 制定系统培训方案和培训内容。"
+                            "prompt": "为项目 {projectName} 制定系统培训方案，包括培训目标、对象、课程和时间安排。"
                         }
                     ]
                 },
@@ -356,6 +497,10 @@
                         {
                             "field": "riskAnalysis",
                             "prompt": "为项目 {projectName} 撰写风险分析和应对措施。"
+                        },
+                        {
+                            "field": "stageSummary",
+                            "prompt": "总结项目 {projectName} 当前阶段的完成情况和已交付成果。"
                         }
                     ]
                 },
@@ -376,7 +521,13 @@
                 {
                     "template": "11试运行/02试运行报告/试运行报告.docx",
                     "outputName": "{projectName}试运行报告.docx",
-                    "required": true
+                    "required": true,
+                    "aiFields": [
+                        {
+                            "field": "trialSummary",
+                            "prompt": "总结项目 {projectName} 试运行期间的系统运行情况和用户反馈。"
+                        }
+                    ]
                 }
             ]
         },
@@ -394,7 +545,7 @@
                     "aiFields": [
                         {
                             "field": "projectSummary",
-                            "prompt": "为项目 {projectName} 撰写项目总结报告，包括项目成果、经验教训和改进建议。"
+                            "prompt": "为项目 {projectName} 撰写项目总结报告，综述项目全过程、主要成果、经验教训和未来展望。"
                         }
                     ]
                 }

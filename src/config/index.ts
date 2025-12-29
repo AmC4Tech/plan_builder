@@ -17,6 +17,8 @@ export interface Config {
     };
     openai: {
         apiKey: string;
+        baseURL: string;
+        modelName: string;
     };
     paths: {
         root: string;
@@ -44,6 +46,8 @@ export const config: Config = {
     // OpenAI 配置
     openai: {
         apiKey: process.env.OPENAI_API_KEY || '',
+        baseURL: process.env.OPENAI_BASE_URL || 'https://api.openai.com/v1',
+        modelName: process.env.MODEL_NAME || 'gpt-3.5-turbo',
     },
 
     // 路径配置
@@ -66,11 +70,11 @@ export const config: Config = {
  */
 export async function getRedisConnection(): Promise<unknown> {
     if (config.redis.useMock) {
-        const RedisMock = (await import('ioredis-mock')).default;
+        const RedisMock = (await import('ioredis-mock')).default as any;
         return new RedisMock();
     }
 
-    const Redis = (await import('ioredis')).default;
+    const Redis = (await import('ioredis')).default as any;
     return new Redis({
         host: config.redis.host,
         port: config.redis.port,

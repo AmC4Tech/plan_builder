@@ -1,32 +1,28 @@
 import config from '../config/index.js';
 import type { ProjectData } from '../types/index.js';
 
-interface ChatModel {
-    invoke(prompt: string): Promise<{ content: string }>;
-}
+import OpenAI from 'openai';
 
 /**
- * AI 内容生成器 - 使用 LangChain.js 生成文本内容
+ * AI 内容生成器 - 使用 OpenAI SDK 生成文本内容
  */
 class AIWriter {
-    private llm: ChatModel | null = null;
+    private client: OpenAI | null = null;
     private initialized = false;
 
     /**
-     * 初始化 LLM
+     * 初始化 OpenAI 客户端
      */
     async initialize(): Promise<void> {
         if (this.initialized) return;
 
         if (config.openai.apiKey) {
-            // 使用 OpenAI
-            const { ChatOpenAI } = await import('@langchain/openai');
-            this.llm = new ChatOpenAI({
-                openAIApiKey: config.openai.apiKey,
-                modelName: 'gpt-3.5-turbo',
-                temperature: 0.7,
+            // 使用 OpenAI SDK
+            this.client = new OpenAI({
+                apiKey: config.openai.apiKey,
+                baseURL: config.openai.baseURL,
             });
-            console.log('🤖 AI Writer: 使用 OpenAI 模式');
+            console.log(`🤖 AI Writer: 使用 OpenAI 模式 (Model: ${config.openai.modelName}, BaseURL: ${config.openai.baseURL})`);
         } else {
             // 使用 Mock LLM
             console.log('🤖 AI Writer: 使用 Mock LLM 模式（未配置 OpenAI API Key）');
@@ -47,11 +43,17 @@ class AIWriter {
         // 构建完整提示词
         const fullPrompt = this.buildPrompt(prompt, context);
 
-        if (this.llm) {
+        if (this.client) {
             // 使用真实 LLM
             try {
-                const response = await this.llm.invoke(fullPrompt);
-                return response.content;
+                const response = await this.client.chat.completions.create({
+                    model: config.openai.modelName,
+                    messages: [
+                        { role: 'user', content: fullPrompt }
+                    ],
+                    temperature: 0.7,
+                });
+                return response.choices[0].message.content || '';
             } catch (error) {
                 const err = error as Error;
                 console.error('AI 生成失败，使用 Mock 回退:', err.message);
