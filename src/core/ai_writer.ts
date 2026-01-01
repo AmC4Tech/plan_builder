@@ -66,6 +66,23 @@ class AIWriter {
     }
 
     /**
+     * 生成 JSON 数据 (用于 Excel 等结构化生成)
+     */
+    async generateJSON(prompt: string, context: Partial<ProjectData> = {}): Promise<any> {
+        const jsonPrompt = `${prompt}\n\n请只返回纯 JSON 格式的数据，不要包含 markdown 代码块标记，不要包含其他解释文字。`;
+        const result = await this.generateContent(jsonPrompt, context);
+
+        try {
+            // 尝试清理 markdown 代码块标记
+            const cleanResult = result.replace(/```json/g, '').replace(/```/g, '').trim();
+            return JSON.parse(cleanResult);
+        } catch (e) {
+            console.error('JSON 解析失败，返回空数组', result);
+            return [];
+        }
+    }
+
+    /**
      * 构建完整提示词
      */
     private buildPrompt(prompt: string, context: Partial<ProjectData>): string {
@@ -87,75 +104,25 @@ class AIWriter {
      */
     private mockGenerate(prompt: string, context: Partial<ProjectData>): string {
         const projectName = context.projectName || '示例项目';
+        console.log(`[Mock Generating] Prompt length: ${prompt.length}`);
 
-        // 根据提示词类型返回不同的 Mock 内容
-        const mockTemplates: Record<string, string> = {
-            'feasibility': `
-# 可行性分析报告
-
-## 技术可行性
-${projectName}项目从技术角度分析具有较高的可行性。当前市场上已有成熟的技术方案可供参考，开发团队具备相关技术经验。
-
-## 经济可行性
-根据初步估算，项目投资回报期预计为18-24个月，投资回报率预计可达150%以上。
-
-## 运营可行性
-项目运营模式清晰，人员配置合理，风险可控。
-
-## 结论
-综合以上分析，建议立项推进。
-      `.trim(),
-
-            'risk': `
-# 风险分析
-
-## 技术风险
-- 新技术学习曲线可能影响开发进度
-- 第三方依赖稳定性需要评估
-
-## 市场风险
-- 市场需求变化可能影响产品方向
-- 竞争对手动态需持续关注
-
-## 管理风险
-- 团队协作效率需要保障
-- 需求变更控制需要加强
-
-## 应对措施
-1. 建立技术预研机制
-2. 定期市场调研
-3. 完善项目管理流程
-      `.trim(),
-
-            'summary': `
-# 项目概述
-
-${projectName}是一个旨在解决特定业务问题的创新项目。通过采用先进的技术方案和科学的管理方法，本项目将为用户提供高效、可靠的解决方案。
-
-## 项目目标
-- 提高业务效率30%以上
-- 降低运营成本20%
-- 提升用户满意度至90%以上
-
-## 预期成果
-项目完成后将交付完整的系统解决方案，包括核心功能模块、配套文档和培训材料。
-      `.trim(),
-        };
+        // 简单的 Mock 逻辑，如果检测到 JSON 请求（通过 prompt 内容猜测）
+        if (prompt.includes('JSON') || prompt.includes('Excel') || prompt.includes('测试用例')) {
+            return JSON.stringify([
+                { "ID": "TC001", "模块": "用户管理", "功能": "登录", "步骤": "输入正确账号密码", "预期结果": "登录成功" },
+                { "ID": "TC002", "模块": "用户管理", "功能": "登录", "步骤": "输入错误密码", "预期结果": "提示密码错误" },
+                { "ID": "TC003", "模块": "数据报表", "功能": "导出", "步骤": "点击导出按钮", "预期结果": "下载 Excel 文件" }
+            ], null, 2);
+        }
 
         // 匹配模板
         const promptLower = prompt.toLowerCase();
         if (promptLower.includes('feasibility') || promptLower.includes('可行性')) {
-            return mockTemplates.feasibility;
-        }
-        if (promptLower.includes('risk') || promptLower.includes('风险')) {
-            return mockTemplates.risk;
-        }
-        if (promptLower.includes('summary') || promptLower.includes('概述') || promptLower.includes('概要')) {
-            return mockTemplates.summary;
+            return `# 可行性分析报告\n\n## 技术可行性\n${projectName}项目技术成熟...\n\n## 经济可行性\n回报率高...`;
         }
 
-        // 默认返回
-        return `[AI 生成内容]\n\n针对"${prompt.substring(0, 50)}..."的分析内容将在此处展示。\n\n项目名称: ${projectName}\n生成时间: ${new Date().toLocaleString('zh-CN')}`;
+        // 默认返回 Markdown
+        return `# ${projectName} - 生成文档\n\n基于模板生成的示例内容。\n\n## 章节一\n这是第一部分的内容。\n\n## 章节二\n这是第二部分的内容。`;
     }
 
     /**
